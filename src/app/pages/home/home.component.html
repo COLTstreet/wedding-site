@@ -1,0 +1,30 @@
+<video autoplay muted loop playsinline id="full-video" class="behind">
+  <source src="../../../assets/rain.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+<div class="col-12 text-right no-padding controls" *ngIf="fullscreen" [@fadeInOut]>
+  <button class="btn btn-primary btn-lg btn-clear text-white" (click)="pausePlay()">
+    <i class="fas" [ngClass]="{'fa-pause': !paused, 'fa-play': paused}"></i>
+  </button>
+  <button class="btn btn-primary btn-lg btn-clear text-white" (click)="goFullscreen()">
+    <i class="fas" [ngClass]="{'fa-expand': !fullscreen, 'fa-compress': fullscreen}"></i>
+  </button>
+</div>
+<div class="content" *ngIf="!fullscreen" [@fadeInOut]>
+  <app-header></app-header>
+  <div class="row">
+    <div class="col-6"></div>
+    <div class="col-6 text-right no-padding">
+      <button class="btn btn-primary btn-lg btn-clear text-white" (click)="pausePlay()">
+        <i class="fas" [ngClass]="{'fa-pause': !paused, 'fa-play': paused}"></i>
+      </button>
+      <button class="btn btn-primary btn-lg btn-clear text-white" (click)="goFullscreen()">
+        <i class="fas" [ngClass]="{'fa-expand': !fullscreen, 'fa-compress': fullscreen}"></i>
+      </button>
+    </div>
+  </div>
+  <div>
+    <p class="text-center title w-100">Carole & Colt</p>
+    <p class="text-center subtitle w-100">10 • 10 • 2020</p>
+  </div>
+</div>

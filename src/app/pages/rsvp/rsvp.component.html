@@ -1,0 +1,23 @@
+<app-header></app-header>
+<div class="backdrop" [@fadeInOut]>
+  <p class="text">RSVP</p>
+</div>
+<div class="row" *ngIf="!showForm">
+  <div class="col-xs-12 col-md-4"></div>
+
+  <div class="col-xs-12 col-md-4 mt-3">
+    <div class="text-center password-text">
+      Invite Password
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1"><i class="fas fa-key"></i></span>
+      </div>
+      <input #passBox type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1"
+        (keyup)="checkPassword(passBox.value)">
+    </div>
+  </div>
+
+  <div class="col-xs-12 col-md-4"></div>
+</div>
+<div *ngIf="showForm" [@fadeInOut]>Form here</div>

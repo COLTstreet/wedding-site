@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.full {
+  height: 100%;
+  width: 100%;
+}
+
+.btn-clear {
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.btn-clear:focus {
+  box-shadow: none !important;
+}
+
+.btn-clear:hover {
+  background: rgba(0, 0, 0, .2) !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.row {
+  margin: 0px !important;
+  padding: 0px !important;
+}

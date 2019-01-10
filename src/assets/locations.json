@@ -1,0 +1,101 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<strong>Chrysler Museum of Art</strong><p><a href=\"https://chrysler.org/\" target=\"_blank\">The Chrysler Museum</a> has fifty galleries, a growing collection of more than 30,000 objects, an interactive space for families, and the only glass studio of its kind in the Mid-Atlantic region. Best of all, admission is free.</p>",
+          "clean": "The Chrysler Museum has fifty galleries, a growing collection of more than 30,000 objects, an interactive space for families, and the only glass studio of its kind in the Mid-Atlantic region. Best of all, admission is free.",
+          "name": "Chrysler Museum of Art",
+          "icon": "museum"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -76.292730,
+            36.856505
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<strong>Battleship Wisconsin</strong><p><a href=\"http://www.nauticus.org/exhibits/battleship-wisconsin\" target=\"_blank\">The Battleship Wisconsin</a> is one of the largest and last battleships ever built by the U.S. Navy.</p>",
+          "clean": "Berthed at Nauticus, the Battleship Wisconsin is one of the largest and last battleships ever built by the U.S. Navy.",
+          "name": "Battleship Wisconsin",
+          "icon": "museum"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -76.295369,
+            36.848492
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<strong>MacArthur Memorial</strong><p><a href=\"http://www.macarthurmemorial.org/\" target=\"_blank\">Memorial</a> to the five-star US Army General who served in three major wars: WWI, Korea and WWII.</p>",
+          "clean": "Memorial to the five-star US Army General who served in three major wars: WWI, Korea and WWII.",
+          "name": "MacArthur Memorial",
+          "icon": "museum"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -76.288641,
+            36.847399
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<strong>Virginia Zoo</strong><p><a href=\"http://www.virginiazoo.org/\" target=\"_blank\">Open</a> daily from 10 am to 5 pm (except on major winter holidays)</p>",
+          "clean": "Open daily from 10 am to 5 pm (except on major winter holidays)",
+          "name": "Virginia Zoo",
+          "icon": "zoo"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -76.277182,
+            36.876934
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<strong>Virginia Stage Company at The Wells Theatre</strong><p><a href=\"http://www.vastage.org/\" target=\"_blank\">Virginia Stage Company</a> is a professional, producing theatre company based in Norfolk, VA</p>",
+          "clean": "Virginia Stage Company is a professional, producing theatre company based in Norfolk, VA",
+          "name": "Virginia Stage Company at The Wells Theatre",
+          "icon": "theatre"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -76.290186,
+            36.849186
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<strong>Slover Library</strong><p><a href=\"http://www.sloverlibrary.com/\" target=\"_blank\">Slover Library</a> is located in beautiful downtown Norfolk on the corner of Plume and Atlantic Street near MacArthur Square and the MacArthur Memorial.</p>",
+          "clean": "Slover Library is located in beautiful downtown Norfolk on the corner of Plume and Atlantic Street near MacArthur Square and the MacArthur Memorial.",
+          "name": "Slover Library",
+          "icon": "library"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -76.290444,
+            36.846879
+          ]
+        }
+      }
+    ]
+  }

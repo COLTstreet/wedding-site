@@ -1,0 +1,74 @@
+<app-header></app-header>
+<div id="modal-container">
+  <div class="modal-background">
+    <div class="modal">
+      <h2>{{activeInfo}}</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
+        <rect x="0" y="0" fill="none" width="100%" height="100%" rx="3" ry="3"></rect>
+      </svg>
+    </div>
+  </div>
+</div>
+<div class="d-flex flex-wrap justify-content-center">
+  <div id="card-1" class="card" (mouseenter)="animate(1)" (mouseleave)="deanimate(1)" (click)="showModal(0)">
+    <div id="border-1" class="card-border"></div>
+    <div id="overlay-1" class="overlay">
+      <div id="shine-1" class="card-shine">
+        <div></div>
+      </div>
+    </div>
+    <div id="caption-1" class="card-caption">
+      <h3 class="card-title">Brittani</h3>
+      <p *ngIf="showDesc[0]" class="card-description" [@slideInOut]>Maid of Honor</p>
+    </div>
+  </div>
+  <div id="card-2" class="card" (mouseenter)="animate(2)" (mouseleave)="deanimate(2)" (click)="showModal(1)">
+    <div id="border-2" class="card-border"></div>
+    <div id="overlay-2" class="overlay">
+      <div id="shine-2" class="card-shine">
+        <div></div>
+      </div>
+    </div>
+    <div id="caption-2" class="card-caption">
+      <h3 class="card-title">Steph</h3>
+      <p *ngIf="showDesc[1]" class="card-description" [@slideInOut]>Bridesmaid</p>
+    </div>
+  </div>
+  <div id="card-3" class="card" (mouseenter)="animate(3)" (mouseleave)="deanimate(3)" (click)="showModal(2)">
+    <div id="border-3" class="card-border"></div>
+    <div id="overlay-3" class="overlay">
+      <div id="shine-3" class="card-shine">
+        <div></div>
+      </div>
+    </div>
+    <div id="caption-3" class="card-caption">
+      <h3 class="card-title">Mariah</h3>
+      <p *ngIf="showDesc[2]" class="card-description" [@slideInOut]>Bridesmaid</p>
+    </div>
+  </div>
+  <div id="card-4" class="card" (mouseenter)="animate(4)" (mouseleave)="deanimate(4)" (click)="showModal(3)">
+    <div id="border-4" class="card-border"></div>
+    <div id="overlay-4" class="overlay">
+      <div id="shine-4" class="card-shine">
+        <div></div>
+      </div>
+    </div>
+    <div id="caption-4" class="card-caption">
+      <h3 class="card-title">Guard</h3>
+      <p *ngIf="showDesc[3]" class="card-description" [@slideInOut]>Best Man</p>
+    </div>
+  </div>
+  <div id="card-5" class="card" (mouseenter)="animate(5)" (mouseleave)="deanimate(5)" (click)="showModal(4)">
+    <div id="border-5" class="card-border"></div>
+    <div id="overlay-5" class="overlay">
+      <div id="shine-5" class="card-shine">
+        <div></div>
+      </div>
+    </div>
+    <div id="caption-5" class="card-caption">
+      <h3 class="card-title">Hans</h3>
+      <p *ngIf="showDesc[4]" class="card-description" [@slideInOut]>Groomsman</p>
+    </div>
+  </div>
+</div>

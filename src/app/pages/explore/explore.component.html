@@ -1,0 +1,14 @@
+<app-header></app-header>
+<div class="row">
+  <div class="col-xs-12 col-md-7 p-0">
+    <div id='map' class="w-100 full"></div>
+  </div>
+  <div class="col-xs-12 col-md-5 p-0">
+    <div class="full location-content">
+      <div id="{{item.properties.name}}" class="location" *ngFor="let item of markers | async">
+        <h4 class="location-title hover">{{ item.properties.name }}</h4>
+        <p>{{ item.properties.clean }}</p>
+      </div>
+    </div>
+  </div>
+</div>
