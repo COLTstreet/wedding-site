@@ -1,101 +1,102 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "properties": {
-          "description": "<strong>Chrysler Museum of Art</strong><p><a href=\"https://chrysler.org/\" target=\"_blank\">The Chrysler Museum</a> has fifty galleries, a growing collection of more than 30,000 objects, an interactive space for families, and the only glass studio of its kind in the Mid-Atlantic region. Best of all, admission is free.</p>",
-          "clean": "The Chrysler Museum has fifty galleries, a growing collection of more than 30,000 objects, an interactive space for families, and the only glass studio of its kind in the Mid-Atlantic region. Best of all, admission is free.",
-          "name": "Chrysler Museum of Art",
-          "icon": "museum"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -76.292730,
-            36.856505
-          ]
-        }
+  "features": [{
+      "geometry": {
+        "coordinates": [-81.318611, 29.889394],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "description": "<strong>Battleship Wisconsin</strong><p><a href=\"http://www.nauticus.org/exhibits/battleship-wisconsin\" target=\"_blank\">The Battleship Wisconsin</a> is one of the largest and last battleships ever built by the U.S. Navy.</p>",
-          "clean": "Berthed at Nauticus, the Battleship Wisconsin is one of the largest and last battleships ever built by the U.S. Navy.",
-          "name": "Battleship Wisconsin",
-          "icon": "museum"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -76.295369,
-            36.848492
-          ]
-        }
+      "properties": {
+        "clean": "The Historic FP&L Ice Plant. Built as part of St. Augustine’s ﬁrst power and ice complex in 1907 (we have pictures from 1925 in the museum to show you), we have lovingly restored and brought her back into service so she can serve the community for the next century. The Ice Plant is a contributing building to the Lincolnville Neighborhood on the National Register of Historic Places and was the ﬁrst of it’s kind to make commercial block ice in Florida over 100 years ago. Today, she is helping us make Florida’s ﬁrst bourbon and other ﬁne craft spirits. We love our new home and hope you will too.",
+        "description": "<a href=\"http://staugustinedistillery.com/?ref=VisitStAugustine.com&type=featured/\" target=\"_blank\"><strong>St. Augustine Distillery</strong></a><p>The Historic FP&L Ice Plant. Built as part of St. Augustine’s ﬁrst power and ice complex in 1907 (we have pictures from 1925 in the museum to show you), we have lovingly restored and brought her back into service so she can serve the community for the next century. The Ice Plant is a contributing building to the Lincolnville Neighborhood on the National Register of Historic Places and was the ﬁrst of it’s kind to make commercial block ice in Florida over 100 years ago. Today, she is helping us make Florida’s ﬁrst bourbon and other ﬁne craft spirits. We love our new home and hope you will too.</p>",
+        "icon": "bar",
+        "id": "stAugustineDistillery",
+        "name": "St. Augustine Distillery"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "description": "<strong>MacArthur Memorial</strong><p><a href=\"http://www.macarthurmemorial.org/\" target=\"_blank\">Memorial</a> to the five-star US Army General who served in three major wars: WWI, Korea and WWII.</p>",
-          "clean": "Memorial to the five-star US Army General who served in three major wars: WWI, Korea and WWII.",
-          "name": "MacArthur Memorial",
-          "icon": "museum"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -76.288641,
-            36.847399
-          ]
-        }
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.470318, 29.991337],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "description": "<strong>Virginia Zoo</strong><p><a href=\"http://www.virginiazoo.org/\" target=\"_blank\">Open</a> daily from 10 am to 5 pm (except on major winter holidays)</p>",
-          "clean": "Open daily from 10 am to 5 pm (except on major winter holidays)",
-          "name": "Virginia Zoo",
-          "icon": "zoo"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -76.277182,
-            36.876934
-          ]
-        }
+      "properties": {
+        "clean": "Learn all about the accomplishments of golfers from around the world and the history of the game of golf.",
+        "description": "<strong>World Golf Hall of Fame</strong></a><p><a href=\"http://www.worldgolfhalloffame.org/?ref=VisitStAugustine.com&type=enhanced/\" target=\"_blank\">Learn all about the accomplishments of golfers from around the world and the history of the game of golf.</p>",
+        "icon": "museum",
+        "id": "golfHallOfFame",
+        "name": "World Golf Hall of Fame"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "description": "<strong>Virginia Stage Company at The Wells Theatre</strong><p><a href=\"http://www.vastage.org/\" target=\"_blank\">Virginia Stage Company</a> is a professional, producing theatre company based in Norfolk, VA</p>",
-          "clean": "Virginia Stage Company is a professional, producing theatre company based in Norfolk, VA",
-          "name": "Virginia Stage Company at The Wells Theatre",
-          "icon": "theatre"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -76.290186,
-            36.849186
-          ]
-        }
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.313010, 29.896207],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "description": "<strong>Slover Library</strong><p><a href=\"http://www.sloverlibrary.com/\" target=\"_blank\">Slover Library</a> is located in beautiful downtown Norfolk on the corner of Plume and Atlantic Street near MacArthur Square and the MacArthur Memorial.</p>",
-          "clean": "Slover Library is located in beautiful downtown Norfolk on the corner of Plume and Atlantic Street near MacArthur Square and the MacArthur Memorial.",
-          "name": "Slover Library",
-          "icon": "library"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -76.290444,
-            36.846879
-          ]
-        }
-      }
-    ]
-  }
+      "properties": {
+        "clean": "Visitors can experience three centuries of St. Augustine's vivid history through interactive activities and more at the Colonial Quarter.",
+        "description": "<strong>Colonial Quarter</strong></a><p><a href=\"http://www.colonialquarter.com/?ref=VisitStAugustine.com&type=list/\" target=\"_blank\">Visitors can experience three centuries of St. Augustine's vivid history through interactive activities and more at the Colonial Quarter.</p>",
+        "icon": "museum",
+        "id": "colonialQuarter",
+        "name": "Colonial Quarter"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.313287, 29.894652],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "This museum showcases the darker sides of human history.",
+        "description": "<a href=\"https://medievaltorturemuseum.com/#utm_source=visitstaugustine&utm_medium=ttd-page&utm_campaign=ttd-page&utm_term=ttd-page&utm_content=ttd-page/\" target=\"_blank\"><strong>Medieval Torture Museum</strong></a><p>This museum showcases the darker sides of human history.</p>",
+        "icon": "museum",
+        "id": "medievalTortureMuseum",
+        "name": "Medieval Torture Museum"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.312869, 29.897031],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "Explore the world's largest collection of authentic pirate artifacts in a city that has seen its share of pirates.",
+        "description": "<a href=\"http://thepiratemuseum.com/?ref=VisitStAugustine.com&type=list/\" target=\"_blank\"><strong>Pirate & Treasure Museum</strong></a><p>Explore the world's largest collection of authentic pirate artifacts in a city that has seen its share of pirates.</p>",
+        "icon": "museum",
+        "id": "treasureMuseum",
+        "name": "Pirate & Treasure Museum"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.314918, 29.897506],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "The whole family can enjoy interacting with famous figures from history as well as modern movie stars and more at Potter's Wax Museum in St. Augustine.",
+        "description": "<a href=\"https://www.potterswaxmuseum.com/?ref=VisitStAugustine.com&type=list/\" target=\"_blank\"><strong>Potter's Wax Museum</strong></a><p>The whole family can enjoy interacting with famous figures from history as well as modern movie stars and more at Potter's Wax Museum in St. Augustine.</p>",
+        "icon": "museum",
+        "id": "waxMuseum",
+        "name": "Potter's Wax Museum"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.315791, 29.907049],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "The Fountain of Youth gives visitors a chance to experience history at this important archaeological site and to drink from the famous springs.",
+        "description": "<a href=\"http://www.fountainofyouthflorida.com/?ref=VisitStAugustine.com&type=list/\" target=\"_blank\"><strong>Fountain of Youth</strong></a><p>The Fountain of Youth gives visitors a chance to experience history at this important archaeological site and to drink from the famous springs.</p>",
+        "icon": "museum",
+        "id": "fountainOfYouth",
+        "name": "Fountain of Youth"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

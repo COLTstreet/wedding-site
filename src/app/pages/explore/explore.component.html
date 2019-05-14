@@ -5,8 +5,8 @@
   </div>
   <div class="col-xs-12 col-md-5 p-0">
     <div class="full location-content">
-      <div id="{{item.properties.name}}" class="location" *ngFor="let item of markers | async">
-        <h4 class="location-title hover">{{ item.properties.name }}</h4>
+      <div id="{{item.properties.id}}" class="location" *ngFor="let item of markers | async">
+        <h4 class="location-title hover" (click)="flyTo(item)">{{ item.properties.name }}</h4>
         <p>{{ item.properties.clean }}</p>
       </div>
     </div>
