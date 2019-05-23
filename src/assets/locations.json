@@ -20,7 +20,7 @@
       },
       "properties": {
         "clean": "Learn all about the accomplishments of golfers from around the world and the history of the game of golf.",
-        "description": "<strong>World Golf Hall of Fame</strong></a><p><a href=\"http://www.worldgolfhalloffame.org/?ref=VisitStAugustine.com&type=enhanced/\" target=\"_blank\">Learn all about the accomplishments of golfers from around the world and the history of the game of golf.</p>",
+        "description": "<a href=\"http://www.worldgolfhalloffame.org/?ref=VisitStAugustine.com&type=enhanced/\" target=\"_blank\"><strong>World Golf Hall of Fame</strong></a><p>Learn all about the accomplishments of golfers from around the world and the history of the game of golf.</p>",
         "icon": "museum",
         "id": "golfHallOfFame",
         "name": "World Golf Hall of Fame"
@@ -34,7 +34,7 @@
       },
       "properties": {
         "clean": "Visitors can experience three centuries of St. Augustine's vivid history through interactive activities and more at the Colonial Quarter.",
-        "description": "<strong>Colonial Quarter</strong></a><p><a href=\"http://www.colonialquarter.com/?ref=VisitStAugustine.com&type=list/\" target=\"_blank\">Visitors can experience three centuries of St. Augustine's vivid history through interactive activities and more at the Colonial Quarter.</p>",
+        "description": "<a href=\"http://www.colonialquarter.com/?ref=VisitStAugustine.com&type=list/\" target=\"_blank\"><strong>Colonial Quarter</strong></a><p>Visitors can experience three centuries of St. Augustine's vivid history through interactive activities and more at the Colonial Quarter.</p>",
         "icon": "museum",
         "id": "colonialQuarter",
         "name": "Colonial Quarter"
