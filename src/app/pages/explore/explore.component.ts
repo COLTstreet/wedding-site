@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { environment } from 'src/environments/environment';
 import { AngularFireDatabase } from '@angular/fire/database';
 import { GeoJson, FeatureCollection } from '../explore/map';
-import { Observable } from 'rxjs';
+import { Observable, from } from 'rxjs';
 
 import * as mapboxgl from 'mapbox-gl';
 
@@ -20,14 +20,17 @@ export class ExploreComponent implements OnInit {
   source: any;
   directions: any;
   markers: Observable<any[]>;
+  filterBy: any;
+  markerData: any;
   lat = 36.84;
   lng = -76.28;
 
   test = [1, 2, 3, 4, 5, 6, 7, 8, 9 ,10, 11, 12 , 13 , 14, 1, 2, 3, 4, 5, 6, 7, 8, 9 ,10, 11, 12 , 13 , 14];
 
   ngOnInit() {
-
-    this.markers = this.db.list('features').valueChanges();
+    this.db.list('features').valueChanges().subscribe(res => {
+      this.markerData = res;
+    });
 
     mapboxgl.accessToken = environment.mapbox.accessToken
     this.map = new mapboxgl.Map({
@@ -126,4 +129,26 @@ export class ExploreComponent implements OnInit {
     }
   }
 
+  filter(val) {
+    this.filterBy = val;
+  }
+
+}
+
+import { Pipe, PipeTransform } from '@angular/core';
+
+@Pipe({
+  name: 'markerFilter'
+})
+export class FilterPipe implements PipeTransform {
+
+  transform(values: any[], value: string): any[] {
+    if (!values) {
+      return [];
+    }
+    if (typeof value != 'string' || value === 'all') {
+      return values;
+    }
+    return values.filter(item => item.properties.icon === value);
+  }
 }

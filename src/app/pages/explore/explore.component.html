@@ -5,7 +5,27 @@
   </div>
   <div class="col-xs-12 col-md-5 p-0">
     <div class="full location-content">
-      <div id="{{item.properties.id}}" class="location" *ngFor="let item of markers | async">
+      <div class="d-flex justify-content-center">
+        <div (click)="filter('all')" title="Show All">
+          <i class="eye-icon m-2 fas fa-eye-slash"></i>
+        </div>
+        <div (click)="filter('museum')" title="Museums">
+          <img class="m-2" id="museum" src="assets/img_trans.gif" width="1" height="1">
+        </div>
+        <div (click)="filter('bar')" title="Drinks">
+          <img class="m-2" id="bar" src="assets/img_trans.gif" width="1" height="1">
+        </div>
+        <div (click)="filter('lodging')">
+          <img class="m-2" id="lodging" src="assets/img_trans.gif" width="1" height="1">
+        </div>
+        <div (click)="filter('vet')" title="Pet Needs">
+          <img class="m-2" id="vet" src="assets/img_trans.gif" width="1" height="1">
+        </div>
+        <div (click)="filter('beach')" title="Beaches">
+          <img class="m-2" id="beach" src="assets/img_trans.gif" width="1" height="1">
+        </div>
+      </div>
+      <div id="{{item.properties.id}}" class="location" *ngFor="let item of markerData | markerFilter:filterBy;">
         <h4 class="location-title hover" (click)="flyTo(item)">{{ item.properties.name }}</h4>
         <p>{{ item.properties.clean }}</p>
       </div>

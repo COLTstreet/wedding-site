@@ -14,7 +14,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { RsvpComponent } from './pages/rsvp/rsvp.component';
 import { HeaderComponent } from './core/header/header.component';
 import { WeddingPartyComponent } from './pages/wedding-party/wedding-party.component';
-import { ExploreComponent } from './pages/explore/explore.component';
+import { ExploreComponent, FilterPipe } from './pages/explore/explore.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +23,8 @@ import { ExploreComponent } from './pages/explore/explore.component';
     RsvpComponent,
     HeaderComponent,
     WeddingPartyComponent,
-    ExploreComponent
+    ExploreComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,

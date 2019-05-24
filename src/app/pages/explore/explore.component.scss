@@ -64,3 +64,55 @@
 
   }
 }
+
+//ICON CSS
+.eye-icon {
+  color: #8A7862;
+  padding-top: 4px;
+  font-size: 12px;
+}
+
+#museum {
+  width: 21px;
+  height: 21px;
+  background: url("/assets/sprite@2x.png");
+  background-size: 336px 287px;
+  background-position: -252px 0px;
+  transform: scale(1);
+}
+
+#beach {
+  width: 21px;
+  height: 21px;
+  background: url("/assets/sprite@2x.png");
+  background-size: 336px 287px;
+  background-position: 0px -63px;
+  transform: scale(1);
+}
+
+#bar {
+  width: 21px;
+  height: 21px;
+  background: url("/assets/sprite@2x.png");
+  background-size: 336px 287px;
+  background-position: -42px -42px;
+  transform: scale(1);
+}
+
+#lodging {
+  width: 21px;
+  height: 21px;
+  background: url("/assets/sprite@2x.png");
+  background-size: 336px 287px;
+  background-position: -147px -147px;
+  transform: scale(1);
+}
+
+#vet {
+  width: 21px;
+  height: 21px;
+  background: url("/assets/sprite@2x.png");
+  background-size: 336px 287px;
+  background-position: -126px -84px;
+  transform: scale(1);
+}
