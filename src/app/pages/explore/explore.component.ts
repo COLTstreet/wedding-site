@@ -28,6 +28,9 @@ export class ExploreComponent implements OnInit {
   test = [1, 2, 3, 4, 5, 6, 7, 8, 9 ,10, 11, 12 , 13 , 14, 1, 2, 3, 4, 5, 6, 7, 8, 9 ,10, 11, 12 , 13 , 14];
 
   ngOnInit() {
+
+    this.markers = this.db.list('features').valueChanges();
+
     this.db.list('features').valueChanges().subscribe(res => {
       this.markerData = res;
     });
@@ -131,6 +134,15 @@ export class ExploreComponent implements OnInit {
 
   filter(val) {
     this.filterBy = val;
+    
+    $("#all-bk").removeClass("selected");
+    $("#museum-bk").removeClass("selected");
+    $("#bar-bk").removeClass("selected");
+    $("#lodging-bk").removeClass("selected");
+    $("#vet-bk").removeClass("selected");
+    $("#beach-bk").removeClass("selected");
+
+    $("#" + val + "-bk").addClass("selected");
   }
 
 }

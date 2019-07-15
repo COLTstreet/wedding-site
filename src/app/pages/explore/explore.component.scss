@@ -22,6 +22,19 @@
   cursor: pointer;
 }
 
+.selected {
+  background: rgba(172, 232, 220, 0.5)
+}
+
+.selected-border {
+  border-bottom: 2px solid;
+  border-color: rgba(172, 232, 220, 0.5);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
 #map {
   padding-top: 5px;
 }

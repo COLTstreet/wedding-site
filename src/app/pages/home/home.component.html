@@ -1,30 +1,77 @@
-<video autoplay muted loop playsinline id="full-video" class="behind">
-  <source src="../../../assets/rain.mp4" type="video/mp4">
-  Your browser does not support HTML5 video.
-</video>
-<div class="col-12 text-right no-padding controls" *ngIf="fullscreen" [@fadeInOut]>
-  <button class="btn btn-primary btn-lg btn-clear text-white" (click)="pausePlay()">
-    <i class="fas" [ngClass]="{'fa-pause': !paused, 'fa-play': paused}"></i>
-  </button>
-  <button class="btn btn-primary btn-lg btn-clear text-white" (click)="goFullscreen()">
-    <i class="fas" [ngClass]="{'fa-expand': !fullscreen, 'fa-compress': fullscreen}"></i>
-  </button>
-</div>
-<div class="content" *ngIf="!fullscreen" [@fadeInOut]>
-  <app-header></app-header>
-  <div class="row">
-    <div class="col-6"></div>
-    <div class="col-6 text-right no-padding">
-      <button class="btn btn-primary btn-lg btn-clear text-white" (click)="pausePlay()">
-        <i class="fas" [ngClass]="{'fa-pause': !paused, 'fa-play': paused}"></i>
-      </button>
-      <button class="btn btn-primary btn-lg btn-clear text-white" (click)="goFullscreen()">
-        <i class="fas" [ngClass]="{'fa-expand': !fullscreen, 'fa-compress': fullscreen}"></i>
+<div id="home-content" class="home-bk">
+  <video autoplay muted loop playsinline id="full-video" class="behind">
+    <source src="../../../assets/rain.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+  <div class="col-12 text-right no-padding controls" *ngIf="fullscreen" [@fadeInOut]>
+    <button class="btn btn-primary btn-lg btn-clear text-white" (click)="pausePlay()">
+      <i class="fas" [ngClass]="{'fa-pause': !paused, 'fa-play': paused}"></i>
+    </button>
+    <button class="btn btn-primary btn-lg btn-clear text-white" (click)="goFullscreen()">
+      <i class="fas" [ngClass]="{'fa-expand': !fullscreen, 'fa-compress': fullscreen}"></i>
+    </button>
+  </div>
+  <div class="content" *ngIf="!fullscreen" [@fadeInOut]>
+    <app-header></app-header>
+    <div class="row video-controls">
+      <div class="col-6"></div>
+      <div class="col-6 text-right no-padding">
+        <button class="btn btn-primary btn-lg btn-clear text-white" (click)="pausePlay()">
+          <i class="fas" [ngClass]="{'fa-pause': !paused, 'fa-play': paused}"></i>
+        </button>
+        <button class="btn btn-primary btn-lg btn-clear text-white" (click)="goFullscreen()">
+          <i class="fas" [ngClass]="{'fa-expand': !fullscreen, 'fa-compress': fullscreen}"></i>
+        </button>
+      </div>
+    </div>
+    <div>
+      <p class="text-center title w-100">Carole & Colt</p>
+      <p class="text-center subtitle w-100">10 • 11 • 2020</p>
+    </div>
+    <div class="welcome-button">
+      <button mat-mini-fab (click)="goToWelcome()" color="primary">
+        <mat-icon>expand_more</mat-icon>
       </button>
     </div>
   </div>
-  <div>
-    <p class="text-center title w-100">Carole & Colt</p>
-    <p class="text-center subtitle w-100">10 • 11 • 2020</p>
+  <div id="welcomeSection" class="welcome-section" *ngIf="!fullscreen">
+    <div class="row">
+      <p class="text-center subtitle-lower w-100">There and Back Again...</p>
+      <p class="text-center w-100"><i class="far fa-gem welcome-gem"></i></p>
+      <p class="text-center w-100 our-story">
+        I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just
+        click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and
+        drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a
+        little
+        more about you. This is a great space to write long text about your company and your services. You can use this
+        space to go into a little more detail about your company. Talk about your team and what services you provide.
+      </p>
+      <div class="w-100 d-flex justify-content-center">
+        <table class="countdown-table w-50">
+          <tr>
+            <td class="count-square">
+              <div><span id="days"></span><span class="count-text"> days</span></div>
+            </td>
+            <td class="count-square">
+              <div><span id="hours"></span><span class="count-text"> hours</span></div>
+            </td>
+            <td class="count-square">
+              <div><span id="mins"></span><span class="count-text"> minutes</span></div>
+            </td>
+            <td class="count-square">
+              <div><span id="secs"></span><span class="count-text"> seconds</span></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="welcome-button">
+      <button mat-mini-fab (click)="goToGallery()" color="primary">
+        <mat-icon>expand_more</mat-icon>
+      </button>
+    </div>
+  </div>
+  <div id="gallerySection">
+    <div id="nanogallery"></div>
   </div>
 </div>

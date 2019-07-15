@@ -5,23 +5,23 @@
   </div>
   <div class="col-xs-12 col-md-5 p-0">
     <div class="full location-content">
-      <div class="d-flex justify-content-center">
-        <div (click)="filter('all')" title="Show All">
+      <div class="d-flex justify-content-center selected-border">
+        <div id="all-bk" (click)="filter('all')" title="Show All" class="selected pointer">
           <i class="eye-icon m-2 fas fa-eye-slash"></i>
         </div>
-        <div (click)="filter('museum')" title="Museums">
+        <div id="museum-bk"  (click)="filter('museum')" title="Museums" class="pointer">
           <img class="m-2" id="museum" src="assets/img_trans.gif" width="1" height="1">
         </div>
-        <div (click)="filter('bar')" title="Drinks">
+        <div id="bar-bk"  (click)="filter('bar')" title="Drinks" class="pointer">
           <img class="m-2" id="bar" src="assets/img_trans.gif" width="1" height="1">
         </div>
-        <div (click)="filter('lodging')">
+        <div id="lodging-bk"  (click)="filter('lodging')" title="Lodging" class="pointer">
           <img class="m-2" id="lodging" src="assets/img_trans.gif" width="1" height="1">
         </div>
-        <div (click)="filter('vet')" title="Pet Needs">
+        <div id="vet-bk"  (click)="filter('vet')" title="Pet Needs" class="pointer">
           <img class="m-2" id="vet" src="assets/img_trans.gif" width="1" height="1">
         </div>
-        <div (click)="filter('beach')" title="Beaches">
+        <div id="beach-bk"  (click)="filter('beach')" title="Beaches" class="pointer">
           <img class="m-2" id="beach" src="assets/img_trans.gif" width="1" height="1">
         </div>
       </div>

@@ -6,31 +6,141 @@
   min-height: 100%;
 }
 
+#gallery-section {
+  background: black;
+}
+
+.content {
+  height: 100vh;
+}
+
+.welcome-section {
+  height: 100vh;
+  background: rgba(255, 255, 255, .5);
+  position: relative;
+}
+
+.welcome-gem {
+  font-size: 3rem;
+}
+
+.welcome-button {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.welcome-button button {
+  outline: none;
+}
+
+.our-story {
+  margin: 0 20%;
+}
+
+.count-square {
+  height: 150px;
+  width: 150px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 70px;
+}
+
+.count-text {
+  font-size: 34px;
+}
+
+.countdown-table {
+  text-align: center;
+}
+
 .behind {
   z-index: -1;
 }
 
 .title {
   font-family: 'Amatic SC', cursive;
-  font-size: 10em;
+  font-size: 10rem;
 }
 
 .subtitle {
   font-family: 'Amatic SC', cursive;
-  font-size: 3em;
+  font-size: 3rem;
+}
+
+.subtitle-lower {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3rem;
+  margin-top: 30px;
 }
 
 .controls {
   position: absolute;
 }
 
-@media only screen and (max-width: 600px) { 
+@media only screen and (max-width: 600px) {
   .behind {
+    display: none;
+  }
+
+  .video-controls {
     display: none;
   }
 
   .title {
     font-family: 'Amatic SC', cursive;
-    font-size: 9em;
+    font-size: 7rem;
+    color: white;
+  }
+
+  .subtitle {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+    color: white;
+  }
+
+  .subtitle-lower {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.5rem;
+    margin-top: 30px;
+    color: black;
+  }
+
+  .count-square {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+  }
+
+  .count-text {
+    font-size: 1.25rem;
+  }
+
+  .countdown-table {
+    width: 100% !important;
+  }
+
+  .home-bk {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+  }
+
+  .home-bk::after {
+    content: "";
+    background: url(/assets/mobile-bk.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .welcome-gem {
+    font-size: 1.5rem;
   }
 }

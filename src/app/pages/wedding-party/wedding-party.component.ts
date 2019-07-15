@@ -24,9 +24,68 @@ export class WeddingPartyComponent implements OnInit {
 
   constructor() { }
 
-  showDesc = [false, false, false, false, false, false];
-  aboutArray = ["Brittani", "Steph", "Mariah", "Guard", "Hans", "Craig"]
+  showDesc = [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false];
+  weddingPartyHis = [{
+    name: "Guard",
+    title: "Best Man",
+    desc: "Guard is Colt's older brother and currently resides in New Martinsville, WV. Though separated by seven years, Guard has always had Colt's back, and they are constantly giving their mother a headache. Guard is a firefighter and EMT for the city of New Martinsville. If he is not out fighting fires, you can find him on his boat fishing!"
+  }, {
+    name: "Hans",
+    title: "Groomsman/Officiant",
+    desc: "Hans is Carole's older brother and currently lives in Gaithersburg, MD. After a brief courting period, Hans and Colt have become as close as brothers. He is a great conversationalist and can speak can intelligently on almost any subject, so be sure to find him at the reception! Carole and Colt are honored to have him serve as their Officiant."
+  }, {
+    name: "Jake",
+    title: "Groomsman",
+    desc: "The Blatt's house was like a second home for Colt, and Jake is one of Colts oldest friends. Growing up in New Martinsville, Colt and Jake have done everything from basketball to Buffett concerts together. Jake is a graduate of WVU and currently lives in Wheeling, WV."
+  }, {
+    name: "Ethan",
+    title: "Groomsman",
+    desc: "Colt met Ethan freshman year of college while studying computer science. They quickly became friends and spent the remaining three years as roommates. After a few hundred hours of video games and the occasional beer, they became thick as thieves. Ethan is recently engaged and lives in Dallas, TX and works as a Java Programmer."
+  }, {
+    name: "Zach",
+    title: "Groomsman",
+    desc: "Zach is another hometown friend of Colts. They share a love of basketball, whiskey, and great times with friends. Zach calls Morgantown, WV home, alongside his wife Jennifer and their beautiful girl, Kinley."
+  }, {
+    name: "Taylor",
+    title: "Groomsman",
+    desc: "Taylor, or just 'Shep' if you know him, is another product of New Martinsville, WV. Shep spent most of his time trying to convince Colt to play football in the upcoming season, and succeeded a few times! A constant supporter and friend, Shep now lives in Glendale, WV and is newly married to his wife Kate."
+  }, {
+    name: "Craig",
+    title: "Groomsman",
+    desc: "Craig, a decorated decathlete, also went to Wheeling Jesuit with Colt. A few years after college, the two linked up again when Craig invited Colt to come live with him in DC, where Colt met Carole. Colt has since moved to Charlotte but the two remain great friends. Craig still lives in Washington, DC and is recently engaged to his fiancée, Tirana."
+  }, {
+    name: "Francois",
+    title: "Groomsman",
+    desc: "Colt only met Francois a few years ago in DC through Carole's bridesmaid Dyna, when the two worked together. Turned out they both worked for Deloitte, but in separate areas. They quickly bonded and became great friends. Francois is one of the nicest guys you'll ever meet and is always up for a good time. Francois and Dyna will be married this July and live in Arlington, VA."
+  }];
+  
+  weddingPartyHers = [
+    {
+      name: "Brittani",
+      title: "Maid of Honor",
+      desc: "Description"
+    },{
+      name: "James",
+      title: "Bridesmaid"
+    },{
+      name: "Mariah",
+      title: "Bridesmaid"
+    },{
+      name: "Laura",
+      title: "Bridesmaid"
+    },{
+      name: "Anna",
+      title: "Bridesmaid"
+    },{
+      name: "Gwen",
+      title: "Bridesmaid"
+    },{
+      name: "Dyna",
+      title: "Bridesmaid"
+    }
+  ];
   activeInfo: any;
+  activeDescription: any;
   showModalContent = false;
   id: any;
   isMobile = false;
@@ -48,12 +107,18 @@ export class WeddingPartyComponent implements OnInit {
     }
   }
 
-  showModal(id) {
+  showModal(id, type) {
     this.id = id + 1;
     $('#card-' + this.id).css('opacity', '0.1');
     $('#modal-container').removeAttr('class').addClass("six");
     $('body').addClass('modal-active');
-    this.activeInfo = this.aboutArray[id];
+    if(type === "His") {
+      this.activeInfo = this.weddingPartyHis[id].name;
+      this.activeDescription = this.weddingPartyHis[id].desc;
+    } else {
+      this.activeInfo = this.weddingPartyHers[id].name;
+      this.activeDescription = this.weddingPartyHers[id].desc;
+    }
   }
 
   animate(id) {

@@ -15,6 +15,11 @@ import { RsvpComponent } from './pages/rsvp/rsvp.component';
 import { HeaderComponent } from './core/header/header.component';
 import { WeddingPartyComponent } from './pages/wedding-party/wedding-party.component';
 import { ExploreComponent, FilterPipe } from './pages/explore/explore.component';
+import { LodgingComponent } from './pages/lodging/lodging.component';
+import { MaterialModule } from './core/material/material.module';
+import { EventsComponent } from './pages/events/events.component';
+import { RegistryComponent } from './pages/registry/registry.component';
+import { GalleryComponent } from './pages/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -24,12 +29,17 @@ import { ExploreComponent, FilterPipe } from './pages/explore/explore.component'
     HeaderComponent,
     WeddingPartyComponent,
     ExploreComponent,
-    FilterPipe
+    FilterPipe,
+    LodgingComponent,
+    EventsComponent,
+    RegistryComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
+    MaterialModule,
     ReactiveFormsModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule
