@@ -3,7 +3,7 @@
   <mat-tab label="His">
     <div class="d-flex flex-wrap justify-content-center">
       <div *ngFor="let card of weddingPartyHis; let i = index">
-        <div id="card-{{i+1}}" class="card" (mouseenter)="animate(i+1)" (mouseleave)="deanimate(i+1)"
+        <div id="card-{{i+1}}" class="card" [ngStyle]="{'background-image': card.photo }" (mouseenter)="animate(i+1)" (mouseleave)="deanimate(i+1)"
           (click)="showModal(i, 'His')">
           <div id="border-{{i+1}}" class="card-border"></div>
           <div id="overlay-{{i+1}}" class="overlay">

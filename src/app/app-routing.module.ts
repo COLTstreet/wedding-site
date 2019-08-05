@@ -8,6 +8,7 @@ import { LodgingComponent } from './pages/lodging/lodging.component';
 import { EventsComponent } from './pages/events/events.component';
 import { RegistryComponent } from './pages/registry/registry.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
+import { AboutUsComponent } from './pages/about-us/about-us.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'},
@@ -18,7 +19,8 @@ const routes: Routes = [
   { path: 'lodging', component: LodgingComponent },
   { path: 'events', component: EventsComponent },
   { path: 'registry', component: RegistryComponent },
-  { path: 'gallery', component: GalleryComponent }
+  { path: 'gallery', component: GalleryComponent },
+  { path: 'about', component: AboutUsComponent }
 ];
 
 @NgModule({

@@ -4,6 +4,7 @@
 
 .nav-height {
   height: 80px;
+  cursor: pointer;
 }
 
 .right-links {
@@ -45,7 +46,7 @@
       height: 1px;
       bottom: 0;
       left: 0;
-      background-color: #8E793E;
+      background-color: #989f7a;
       visibility: hidden;
       -webkit-transform: scaleX(0);
       transform: scaleX(0);

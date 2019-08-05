@@ -41,8 +41,12 @@
   height: 75%;
 }
 
+.logo-event {
+  height: 50px !important;
+}
+
 #welcome-party {
-  background: rgba(181, 238, 205, .7)
+  background: rgba(152, 159, 122, .5)
 }
 
 #welcome-party-info {
@@ -50,11 +54,11 @@
 }
 
 #welcome-icon {
-  color: #B5EECD;
+  color: #ABB2AA
 }
 
 #ceremony {
-  background: rgba(183, 219, 243, .8);
+  background: rgba(254, 208, 195, .5)
 }
 
 #ceremony-info {
@@ -62,11 +66,15 @@
 }
 
 .ceremony-icons {
-  color: #B7DBF3;
+  color: #FED0C3;
 }
 
 #reception {
-  background: rgba(221, 197, 231, .7);
+  background: rgba(183, 110, 121, .5)
+}
+
+.reception-icons {
+  color: #b76e79;
 }
 
 #reception-info {
@@ -90,7 +98,7 @@
   content: '';
   position: absolute;
   top: 50%;
-  border-bottom: 2px solid #B5EECD;
+  border-bottom: 2px solid #ABB2AA;
   width: 591px;
   /* half of limiter*/
   margin: 0 20px;

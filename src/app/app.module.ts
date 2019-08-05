@@ -7,6 +7,7 @@ import { environment } from '../environments/environment';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
+import { SwiperModule, SwiperConfigInterface, SWIPER_CONFIG } from 'ngx-swiper-wrapper';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -20,6 +21,16 @@ import { MaterialModule } from './core/material/material.module';
 import { EventsComponent } from './pages/events/events.component';
 import { RegistryComponent } from './pages/registry/registry.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
+import { AboutUsComponent } from './pages/about-us/about-us.component';
+
+const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
+  observer: true,
+  direction: 'horizontal',
+  threshold: 50,
+  spaceBetween: 5,
+  slidesPerView: 1,
+  centeredSlides: true
+};
 
 @NgModule({
   declarations: [
@@ -33,7 +44,8 @@ import { GalleryComponent } from './pages/gallery/gallery.component';
     LodgingComponent,
     EventsComponent,
     RegistryComponent,
-    GalleryComponent
+    GalleryComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
@@ -42,9 +54,15 @@ import { GalleryComponent } from './pages/gallery/gallery.component';
     MaterialModule,
     ReactiveFormsModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFireDatabaseModule
+    AngularFireDatabaseModule,
+    SwiperModule
   ],
-  providers: [],
+  providers: [
+    {
+      provide: SWIPER_CONFIG,
+      useValue: DEFAULT_SWIPER_CONFIG
+    }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

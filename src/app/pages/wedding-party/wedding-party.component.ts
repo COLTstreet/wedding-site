@@ -28,60 +28,81 @@ export class WeddingPartyComponent implements OnInit {
   weddingPartyHis = [{
     name: "Guard",
     title: "Best Man",
-    desc: "Guard is Colt's older brother and currently resides in New Martinsville, WV. Though separated by seven years, Guard has always had Colt's back, and they are constantly giving their mother a headache. Guard is a firefighter and EMT for the city of New Martinsville. If he is not out fighting fires, you can find him on his boat fishing!"
+    desc: "Guard is Colt's older brother and currently resides in New Martinsville, WV. Though separated by seven years, Guard has always had Colt's back, and they are constantly giving their mother a headache. Guard is a firefighter and EMT for the city of New Martinsville. If he is not out fighting fires, you can find him on his boat fishing!",
+    photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/Guard.JPG?alt=media&token=b160c40f-0c5b-4fff-8e14-44395c6a30d6')"
   }, {
     name: "Hans",
     title: "Groomsman/Officiant",
-    desc: "Hans is Carole's older brother and currently lives in Gaithersburg, MD. After a brief courting period, Hans and Colt have become as close as brothers. He is a great conversationalist and can speak can intelligently on almost any subject, so be sure to find him at the reception! Carole and Colt are honored to have him serve as their Officiant."
+    desc: "Hans is Carole's older brother and currently lives in Gaithersburg, MD. After a brief courting period, Hans and Colt have become as close as brothers. He is a great conversationalist and can speak can intelligently on almost any subject, so be sure to find him at the reception! Carole and Colt are honored to have him serve as their Officiant.",
+    photo: "url('')"
   }, {
     name: "Jake",
     title: "Groomsman",
-    desc: "The Blatt's house was like a second home for Colt, and Jake is one of Colts oldest friends. Growing up in New Martinsville, Colt and Jake have done everything from basketball to Buffett concerts together. Jake is a graduate of WVU and currently lives in Wheeling, WV."
+    desc: "The Blatt's house was like a second home for Colt, and Jake is one of Colts oldest friends. Growing up in New Martinsville, Colt and Jake have done everything from basketball to Buffett concerts together. Jake is a graduate of WVU and currently lives in Wheeling, WV.",
+    photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/Jake.PNG?alt=media&token=d78ccf97-9a49-4cf6-aec2-f33542e36002')"
   }, {
     name: "Ethan",
     title: "Groomsman",
-    desc: "Colt met Ethan freshman year of college while studying computer science. They quickly became friends and spent the remaining three years as roommates. After a few hundred hours of video games and the occasional beer, they became thick as thieves. Ethan is recently engaged and lives in Dallas, TX and works as a Java Programmer."
+    desc: "Colt met Ethan freshman year of college while studying computer science. They quickly became friends and spent the remaining three years as roommates. After a few hundred hours of video games and the occasional beer, they became thick as thieves. Ethan is recently engaged and lives in Dallas, TX and works as a Java Programmer.",
+    photo: "url('')"
   }, {
     name: "Zach",
     title: "Groomsman",
-    desc: "Zach is another hometown friend of Colts. They share a love of basketball, whiskey, and great times with friends. Zach calls Morgantown, WV home, alongside his wife Jennifer and their beautiful girl, Kinley."
+    desc: "Zach is another hometown friend of Colts. They share a love of basketball, whiskey, and great times with friends. Zach calls Morgantown, WV home, alongside his wife Jennifer and their beautiful girl, Kinley.",
+    photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/Zach.JPG?alt=media&token=17cab0f9-8a36-4a65-b111-2574220f467c')"
   }, {
     name: "Taylor",
     title: "Groomsman",
-    desc: "Taylor, or just 'Shep' if you know him, is another product of New Martinsville, WV. Shep spent most of his time trying to convince Colt to play football in the upcoming season, and succeeded a few times! A constant supporter and friend, Shep now lives in Glendale, WV and is newly married to his wife Kate."
+    desc: "Taylor, or just 'Shep' if you know him, is another product of New Martinsville, WV. Shep spent most of his time trying to convince Colt to play football in the upcoming season, and succeeded a few times! A constant supporter and friend, Shep now lives in Glendale, WV and is newly married to his wife Kate.",
+    photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/Taylor.JPG?alt=media&token=c41e793d-e47a-4f72-ae05-31da8cc3690d')"
   }, {
     name: "Craig",
     title: "Groomsman",
-    desc: "Craig, a decorated decathlete, also went to Wheeling Jesuit with Colt. A few years after college, the two linked up again when Craig invited Colt to come live with him in DC, where Colt met Carole. Colt has since moved to Charlotte but the two remain great friends. Craig still lives in Washington, DC and is recently engaged to his fiancée, Tirana."
+    desc: "Craig, a decorated decathlete, also went to Wheeling Jesuit with Colt. A few years after college, the two linked up again when Craig invited Colt to come live with him in DC, where Colt met Carole. Colt has since moved to Charlotte but the two remain great friends. Craig still lives in Washington, DC and is recently engaged to his fiancée, Tirana.",
+    photo: "url('')"
   }, {
     name: "Francois",
     title: "Groomsman",
-    desc: "Colt only met Francois a few years ago in DC through Carole's bridesmaid Dyna, when the two worked together. Turned out they both worked for Deloitte, but in separate areas. They quickly bonded and became great friends. Francois is one of the nicest guys you'll ever meet and is always up for a good time. Francois and Dyna will be married this July and live in Arlington, VA."
+    desc: "Colt only met Francois a few years ago in DC through Carole's bridesmaid Dyna, when the two worked together. Turned out they both worked for Deloitte, but in separate areas. They quickly bonded and became great friends. Francois is one of the nicest guys you'll ever meet and is always up for a good time. Francois and Dyna will be married this July and live in Arlington, VA.",
+    photo: "url('')"
   }];
   
   weddingPartyHers = [
     {
       name: "Brittani",
       title: "Maid of Honor",
-      desc: "Description"
+      desc: "Description",
+      photo: "url('')"
     },{
       name: "James",
-      title: "Bridesmaid"
+      title: "Bridesman",
+      desc: "Description",
+      photo: "url('')"
     },{
       name: "Mariah",
-      title: "Bridesmaid"
+      title: "Bridesmaid",
+      desc: "Description",
+      photo: "url('')"
     },{
       name: "Laura",
-      title: "Bridesmaid"
+      title: "Bridesmaid",
+      desc: "Description",
+      photo: "url('')"
     },{
       name: "Anna",
-      title: "Bridesmaid"
+      title: "Bridesmaid",
+      desc: "Description",
+      photo: "url('')"
     },{
       name: "Gwen",
-      title: "Bridesmaid"
+      title: "Bridesmaid",
+      desc: "Description",
+      photo: "url('')"
     },{
       name: "Dyna",
-      title: "Bridesmaid"
+      title: "Bridesmaid",
+      desc: "Description",
+      photo: "url('')"
     }
   ];
   activeInfo: any;
