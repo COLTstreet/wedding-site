@@ -15,7 +15,7 @@ export class AboutUsComponent implements OnInit {
     this.timelineSwiper = new Swiper('.timeline .swiper-container', {
       direction: 'vertical',
       loop: false,
-      speed: 1600,
+      speed: 800,
       pagination: '.swiper-pagination',
       paginationBulletRender: function (swiper, index, className) {
         var year = document.querySelectorAll('.swiper-slide')[index].getAttribute('data-year');

@@ -49,7 +49,7 @@ export class WeddingPartyComponent implements OnInit {
     name: "Zach",
     title: "Groomsman",
     desc: "Zach is another hometown friend of Colts. They share a love of basketball, whiskey, and great times with friends. Zach calls Morgantown, WV home, alongside his wife Jennifer and their beautiful girl, Kinley.",
-    photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/Zach.JPG?alt=media&token=17cab0f9-8a36-4a65-b111-2574220f467c')"
+    photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/Zach.png?alt=media&token=fc9101c3-4213-4845-8a0e-9c5556117c40')"
   }, {
     name: "Taylor",
     title: "Groomsman",
@@ -59,12 +59,12 @@ export class WeddingPartyComponent implements OnInit {
     name: "Craig",
     title: "Groomsman",
     desc: "Craig, a decorated decathlete, also went to Wheeling Jesuit with Colt. A few years after college, the two linked up again when Craig invited Colt to come live with him in DC, where Colt met Carole. Colt has since moved to Charlotte but the two remain great friends. Craig still lives in Washington, DC and is recently engaged to his fiancée, Tirana.",
-    photo: "url('')"
+    photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/Craig.JPG?alt=media&token=e8253589-84d7-44a5-93bc-f39d6a286087')"
   }, {
     name: "Francois",
     title: "Groomsman",
     desc: "Colt only met Francois a few years ago in DC through Carole's bridesmaid Dyna, when the two worked together. Turned out they both worked for Deloitte, but in separate areas. They quickly bonded and became great friends. Francois is one of the nicest guys you'll ever meet and is always up for a good time. Francois and Dyna will be married this July and live in Arlington, VA.",
-    photo: "url('')"
+    photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/Francois.png?alt=media&token=b8bdecf2-bd26-420b-b758-4668aabef88a')"
   }];
   
   weddingPartyHers = [

@@ -18,7 +18,7 @@
         <div id="lodging-bk"  (click)="filter('lodging')" title="Lodging" class="pointer">
           <img class="m-2" id="lodging" src="assets/img_trans.gif" width="1" height="1">
         </div>
-        <div id="vet-bk"  (click)="filter('vet')" title="Pet Needs" class="pointer">
+        <div id="veterinary-bk"  (click)="filter('veterinary')" title="Pet Needs" class="pointer">
           <img class="m-2" id="vet" src="assets/img_trans.gif" width="1" height="1">
         </div>
         <div id="beach-bk"  (click)="filter('beach')" title="Beaches" class="pointer">
@@ -26,6 +26,7 @@
         </div>
       </div>
       <div id="{{item.properties.id}}" class="location" *ngFor="let item of markerData | markerFilter:filterBy;">
+        <a class="go-to" href="{{ item.properties.url }}" target="_blank"><i class="fas fa-arrow-right"></i></a>
         <h4 class="location-title hover" (click)="flyTo(item)">{{ item.properties.name }}</h4>
         <p>{{ item.properties.clean }}</p>
       </div>

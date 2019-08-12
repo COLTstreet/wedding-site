@@ -57,15 +57,6 @@ $black: #000;
 $primary: #989f7a;
 $secondary: #FED0C3;
 
-// Base style
-
-.title {
-  font-size: 38px;
-  color: $secondary;
-  font-style: italic;
-  font-weight: 800;
-}
-
 // Timeline
 .timeline {
   width: 100%;
@@ -79,7 +70,7 @@ $secondary: #FED0C3;
   }
 
   .swiper-wrapper {
-    transition: 2s cubic-bezier(.68, -0.4, .27, 1.34) .2s;
+    transition: .5s cubic-bezier(.68, -0.4, .27, 1.34) .1.7;
   }
 
   .swiper-slide {
@@ -147,19 +138,19 @@ $secondary: #FED0C3;
       .timeline-year {
         opacity: 1;
         transform: translate3d(0, 0, 0);
-        transition: .4s ease 1.6s;
+        transition: .4s ease .8s;
       }
 
       .timeline-title {
         opacity: 1;
         transform: translate3d(0, 0, 0);
-        transition: .4s ease 1.7s;
+        transition: .4s ease .9s;
       }
 
       .timeline-text {
         opacity: 1;
         transform: translate3d(0, 0, 0);
-        transition: .4s ease 1.8s;
+        transition: .4s ease 1s;
       }
     }
   }
