@@ -25,6 +25,7 @@ export class HomeComponent implements OnInit {
 
   paused = false;
   fullscreen = false;
+  showTopButton = false;
 
   ngOnInit() {
     let video = $('#full-video');
@@ -52,6 +53,7 @@ export class HomeComponent implements OnInit {
       galleryDisplayMode:        "pagination", 
       thumbnailLabel:            { "display" : false }
     });
+    
   }
 
   countdownInit() {
@@ -90,8 +92,16 @@ export class HomeComponent implements OnInit {
     $('html,body').animate({scrollTop: $('#welcomeSection').offset().top});
   }
 
+  goToInfo() {
+    $('html,body').animate({scrollTop: $('#infoSection').offset().top});
+  }
+
   goToGallery() {
     $('html,body').animate({scrollTop: $('#gallerySection').offset().top});
+  }
+
+  goToTop() {
+    $('html,body').animate({scrollTop: $('#home-content').offset().top});
   }
 
   goFullscreen() {

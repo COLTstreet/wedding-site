@@ -1,4 +1,9 @@
 <div id="home-content" class="home-bk">
+  <div class="back-to-top-button-container">
+    <button class="back-to-top-button" mat-mini-fab (click)="goToTop()" color="primary">
+      <mat-icon>expand_less</mat-icon>
+    </button>
+  </div>
   <video autoplay muted loop id="full-video" class="behind">
     <source src="../../../assets/home-bk.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
@@ -61,6 +66,22 @@
           </tr>
         </table>
       </div>
+    </div>
+    <div class="welcome-button">
+      <button mat-mini-fab (click)="goToInfo()" color="primary">
+        <mat-icon>expand_more</mat-icon>
+      </button>
+    </div>
+  </div>
+  <div id="infoSection" class="info-section" *ngIf="!fullscreen">
+    <div class="row">
+      <p class="text-center subtitle-lower w-100">Event Details</p>
+      <p class="text-center w-100"><img class="logo-event" src="/assets/logo.png"></p>
+      <p class="text-center w-100 our-story">
+        I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just
+        click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and
+        drop me anywhere you like on your page.
+      </p>
     </div>
     <div class="welcome-button">
       <button mat-mini-fab (click)="goToGallery()" color="primary">

@@ -10,19 +10,19 @@
           <i class="eye-icon m-2 fas fa-eye-slash"></i>
         </div>
         <div id="museum-bk"  (click)="filter('museum')" title="Museums" class="pointer">
-          <img class="m-2" id="museum" src="assets/img_trans.gif" width="1" height="1">
+          <img class="m-2 explore-icon" id="museum" src="assets/museum-15.svg" width="1" height="1">
         </div>
         <div id="bar-bk"  (click)="filter('bar')" title="Drinks" class="pointer">
-          <img class="m-2" id="bar" src="assets/img_trans.gif" width="1" height="1">
+          <img class="m-2 explore-icon" id="bar" src="assets/bar-15.svg" width="1" height="1">
         </div>
         <div id="lodging-bk"  (click)="filter('lodging')" title="Lodging" class="pointer">
-          <img class="m-2" id="lodging" src="assets/img_trans.gif" width="1" height="1">
+          <img class="m-2 explore-icon" id="lodging" src="assets/lodging-15.svg" width="1" height="1">
         </div>
         <div id="veterinary-bk"  (click)="filter('veterinary')" title="Pet Needs" class="pointer">
-          <img class="m-2" id="vet" src="assets/img_trans.gif" width="1" height="1">
+          <img class="m-2 explore-icon" id="vet" src="assets/veterinary-15.svg" width="1" height="1">
         </div>
         <div id="beach-bk"  (click)="filter('beach')" title="Beaches" class="pointer">
-          <img class="m-2" id="beach" src="assets/img_trans.gif" width="1" height="1">
+          <img class="m-2 explore-icon" id="beach" src="assets/beach-15.svg" width="1" height="1">
         </div>
       </div>
       <div id="{{item.properties.id}}" class="location" *ngFor="let item of markerData | markerFilter:filterBy;">

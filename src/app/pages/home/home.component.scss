@@ -25,6 +25,12 @@
   position: relative;
 }
 
+.info-section {
+  height: 100vh;
+  background: rgba(254, 208, 195, .9);
+  position: relative;
+}
+
 .welcome-gem {
   font-size: 3rem;
 }
@@ -34,6 +40,19 @@
   bottom: 10px;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.back-to-top-button {
+  background-color: white;
+  color: #989f7a;
+  outline: none;
+}
+
+.back-to-top-button-container {
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  z-index: 10;
 }
 
 .welcome-button button {
