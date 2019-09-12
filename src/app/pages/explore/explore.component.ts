@@ -90,7 +90,7 @@ export class ExploreComponent implements OnInit {
         let id = "#" + e.features[0].properties.id;
 
         $('.location-content').animate({
-          scrollTop: $(id).offset().top
+          scrollTop: ($(id).offset().top - 85)
          }, 500);
 
         // Ensure that if the map is zoomed out such that multiple

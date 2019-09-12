@@ -34,7 +34,7 @@ export class WeddingPartyComponent implements OnInit {
     name: "Hans",
     title: "Groomsman/Officiant",
     desc: "Hans is Carole's older brother and currently lives in Gaithersburg, MD. After a brief courting period, Hans and Colt have become as close as brothers. He is a great conversationalist and can speak can intelligently on almost any subject, so be sure to find him at the reception! Carole and Colt are honored to have him serve as their Officiant.",
-    photo: "url('')"
+    photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/Hans.JPG?alt=media&token=5bcb2665-187f-4d88-9508-9c05cf00226c')"
   }, {
     name: "Jake",
     title: "Groomsman",
@@ -44,7 +44,7 @@ export class WeddingPartyComponent implements OnInit {
     name: "Ethan",
     title: "Groomsman",
     desc: "Colt met Ethan freshman year of college while studying computer science. They quickly became friends and spent the remaining three years as roommates. After a few hundred hours of video games and the occasional beer, they became thick as thieves. Ethan is recently engaged and lives in Dallas, TX and works as a Java Programmer.",
-    photo: "url('')"
+    photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/Ethan.png?alt=media&token=70a07a2a-216d-4d88-b75f-3a8663118f39')"
   }, {
     name: "Zach",
     title: "Groomsman",
@@ -63,7 +63,7 @@ export class WeddingPartyComponent implements OnInit {
   }, {
     name: "Francois",
     title: "Groomsman",
-    desc: "Colt only met Francois a few years ago in DC through Carole's bridesmaid Dyna, when the two worked together. Turned out they both worked for Deloitte, but in separate areas. They quickly bonded and became great friends. Francois is one of the nicest guys you'll ever meet and is always up for a good time. Francois and Dyna will be married this July and live in Arlington, VA.",
+    desc: "Colt only met Francois a few years ago in DC through Carole's bridesmaid Dyna, when the two worked together. Turned out they both worked for Deloitte, but in separate areas. They quickly bonded and became great friends. Francois is one of the nicest guys you'll ever meet and is always up for a good time. Francois and Dyna recently married last July and live in Arlington, VA.",
     photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/Francois.png?alt=media&token=b8bdecf2-bd26-420b-b758-4668aabef88a')"
   }];
   
