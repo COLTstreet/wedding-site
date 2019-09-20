@@ -72,7 +72,7 @@ export class WeddingPartyComponent implements OnInit {
       name: "Brittani",
       title: "Maid of Honor",
       desc: "Description",
-      photo: "url('')"
+      photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/britt.jpg?alt=media&token=ccf2fc10-20c1-48a9-a426-11f1b95eb05f')"
     },{
       name: "James",
       title: "Bridesman",
@@ -87,26 +87,27 @@ export class WeddingPartyComponent implements OnInit {
       name: "Laura",
       title: "Bridesmaid",
       desc: "Description",
-      photo: "url('')"
+      photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/laura.png?alt=media&token=712799e6-d666-4b3b-93d2-ccf7c9da675a')"
     },{
       name: "Anna",
       title: "Bridesmaid",
       desc: "Description",
-      photo: "url('')"
+      photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/anna.png?alt=media&token=d02c9eb7-ff4f-44ca-8213-e5dcbe4c804d'"
     },{
       name: "Gwen",
       title: "Bridesmaid",
       desc: "Description",
-      photo: "url('')"
+      photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/gwen.png?alt=media&token=9187a6d4-a961-4bfb-b605-84fde26374ba')"
     },{
       name: "Dyna",
       title: "Bridesmaid",
       desc: "Description",
-      photo: "url('')"
+      photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/dyna.png?alt=media&token=83da9c8d-89e7-452a-8cad-80279e9758fe')"
     }
   ];
   activeInfo: any;
   activeDescription: any;
+  activePhoto: any;
   showModalContent = false;
   id: any;
   isMobile = false;
@@ -135,9 +136,12 @@ export class WeddingPartyComponent implements OnInit {
     $('body').addClass('modal-active');
     if(type === "His") {
       this.activeInfo = this.weddingPartyHis[id].name;
+      this.activePhoto = this.weddingPartyHis[id].photo;
+      // this.activePhoto = this.weddingPartyHis[id].photo.match(/'([^']+)'/)[1];
       this.activeDescription = this.weddingPartyHis[id].desc;
     } else {
       this.activeInfo = this.weddingPartyHers[id].name;
+      this.activePhoto = this.weddingPartyHers[id].photo.match(/'([^']+)'/)[1];
       this.activeDescription = this.weddingPartyHers[id].desc;
     }
   }
