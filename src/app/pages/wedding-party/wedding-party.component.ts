@@ -28,42 +28,42 @@ export class WeddingPartyComponent implements OnInit {
   weddingPartyHis = [{
     name: "Guard",
     title: "Best Man",
-    desc: "Guard is Colt's older brother and currently resides in New Martinsville, WV. Though separated by seven years, Guard has always had Colt's back, and they are constantly giving their mother a headache. Guard is a firefighter and EMT for the city of New Martinsville. If he is not out fighting fires, you can find him on his boat fishing!",
+    desc: "Guard is my older brother and currently resides in New Martinsville, WV. Though separated by seven years, Guard has always had my back, and we are constantly giving our mother a headache. Guard is a firefighter and EMT for the city of New Martinsville. If he is not out fighting fires, you can find him on his boat fishing!",
     photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/Guard.JPG?alt=media&token=b160c40f-0c5b-4fff-8e14-44395c6a30d6')"
   }, {
     name: "Hans",
     title: "Groomsman/Officiant",
-    desc: "Hans is Carole's older brother and currently lives in Gaithersburg, MD. After a brief courting period, Hans and Colt have become as close as brothers. He is a great conversationalist and can speak can intelligently on almost any subject, so be sure to find him at the reception! Carole and Colt are honored to have him serve as their Officiant.",
+    desc: "Hans is Carole's older brother and currently lives in Gaithersburg, MD. After a brief courting period, Hans and I have become as close as brothers. He is a great conversationalist and can speak intelligently on almost any subject, so be sure to find him at the reception! Carole and I are honored to have him serve as our Officiant.",
     photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/Hans.JPG?alt=media&token=5bcb2665-187f-4d88-9508-9c05cf00226c')"
   }, {
     name: "Jake",
     title: "Groomsman",
-    desc: "The Blatt's house was like a second home for Colt, and Jake is one of Colts oldest friends. Growing up in New Martinsville, Colt and Jake have done everything from basketball to Buffett concerts together. Jake is a graduate of WVU and currently lives in Wheeling, WV.",
+    desc: "The Blatt's house was like a second home for me, and Jake is one of my oldest friends. Growing up in New Martinsville, Jake and I have done everything from basketball to Jimmy Buffett concerts together. Jake is a graduate of WVU and currently lives in Wheeling, WV.",
     photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/Jake.PNG?alt=media&token=d78ccf97-9a49-4cf6-aec2-f33542e36002')"
   }, {
     name: "Ethan",
     title: "Groomsman",
-    desc: "Colt met Ethan freshman year of college while studying computer science. They quickly became friends and spent the remaining three years as roommates. After a few hundred hours of video games and the occasional beer, they became thick as thieves. Ethan is recently engaged and lives in Dallas, TX and works as a Java Programmer.",
+    desc: "I met Ethan freshman year of college while studying computer science. We quickly became friends and spent the remaining three years as roommates. After a few hundred hours of video games and the occasional beer, we became thick as thieves. Ethan is recently engaged and lives in Dallas, TX working as a Java Programmer.",
     photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/Ethan.png?alt=media&token=70a07a2a-216d-4d88-b75f-3a8663118f39')"
   }, {
     name: "Zach",
     title: "Groomsman",
-    desc: "Zach is another hometown friend of Colts. They share a love of basketball, whiskey, and great times with friends. Zach calls Morgantown, WV home, alongside his wife Jennifer and their beautiful girl, Kinley.",
+    desc: "Zach is another hometown friend of mine. We share a love of basketball, whiskey, and great times with friends. Zach calls Morgantown, WV home, alongside his wife, Jennifer, and their beautiful girl, Kinley.",
     photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/Zach.png?alt=media&token=fc9101c3-4213-4845-8a0e-9c5556117c40')"
   }, {
     name: "Taylor",
     title: "Groomsman",
-    desc: "Taylor, or just 'Shep' if you know him, is another product of New Martinsville, WV. Shep spent most of his time trying to convince Colt to play football in the upcoming season, and succeeded a few times! A constant supporter and friend, Shep now lives in Glendale, WV and is newly married to his wife Kate.",
+    desc: "Taylor, or just 'Shep' if you know him, is another product of New Martinsville, WV. Shep spent most of our time growing up trying to convince me to play football (...succeeding a few times). A constant supporter and friend, Shep now lives in Glendale, WV and is newly married to his wife Kate.",
     photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/Taylor.JPG?alt=media&token=c41e793d-e47a-4f72-ae05-31da8cc3690d')"
   }, {
     name: "Craig",
     title: "Groomsman",
-    desc: "Craig, a decorated decathlete, also went to Wheeling Jesuit with Colt. A few years after college, the two linked up again when Craig invited Colt to come live with him in DC, where Colt met Carole. Colt has since moved to Charlotte but the two remain great friends. Craig still lives in Washington, DC and is recently engaged to his fiancée, Tirana.",
+    desc: "Craig, a decorated decathlete, also attended Wheeling Jesuit University. A few years after college, we linked up again when Craig invited me to come live with him in DC, where I met Carole. I may have moved to Charlotte, but we remain great friends. Craig still lives in Washington, DC and is recently engaged to his fiancée, Tirana.",
     photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/Craig.JPG?alt=media&token=e8253589-84d7-44a5-93bc-f39d6a286087')"
   }, {
     name: "Francois",
     title: "Groomsman",
-    desc: "Colt only met Francois a few years ago in DC through Carole's bridesmaid Dyna, when the two worked together. Turned out they both worked for Deloitte, but in separate areas. They quickly bonded and became great friends. Francois is one of the nicest guys you'll ever meet and is always up for a good time. Francois and Dyna recently married last July and live in Arlington, VA.",
+    desc: "Francois and I met at one of Carole's work events in DC a few years ago (He was there with his now wife, Dyna - Carole's coworker). Unbeknownst to us, we both worked for Deloitte but in separate areas. We quickly bonded and became great friends. Francois is one of the nicest guys you'll ever meet and is always up for a good time. Francois and Dyna recently married July and live in Arlington, VA.",
     photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/Francois.png?alt=media&token=b8bdecf2-bd26-420b-b758-4668aabef88a')"
   }];
   
@@ -71,38 +71,38 @@ export class WeddingPartyComponent implements OnInit {
     {
       name: "Brittani",
       title: "Maid of Honor",
-      desc: "Description",
+      desc: "As my Maid of Honor and also my best friend, Brittani has provided me with consistent support through all things good and bad. We spent much of our childhood (and adult life) scream-singing at Backstreet Boys concerts and annoying our parents with perfectly choreographed routines to Mr. Brightside and other 00’s hits. Brittani brings a special kind of joy and laughter to all who surround her, and she continues to bring happiness to the lives of others by working with the National Coalition for Cancer Survivorship in Washington D.C.",
       photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/britt.jpg?alt=media&token=ccf2fc10-20c1-48a9-a426-11f1b95eb05f')"
-    },{
-      name: "James",
-      title: "Bridesman",
-      desc: "Description",
-      photo: "url('')"
     },{
       name: "Mariah",
       title: "Bridesmaid",
-      desc: "Description",
-      photo: "url('')"
+      desc: "Playing basketball at Colgate University brought Mariah and I together. We won some games, lost a lot, but we made unforgettable memories along the way. We enjoyed a short time living in DC together, dancing the weekends away and having way too much fun! Even though she is an avid Croc-wearer, Mariah was a great teammate and continues to be an even better friend. She currently resides in Maryland with her boisterous cat, Seth.",
+      photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/mariah.png?alt=media&token=b0576b39-82b6-4b69-8ebe-b99d513aff0a')"
     },{
-      name: "Laura",
-      title: "Bridesmaid",
-      desc: "Description",
-      photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/laura.png?alt=media&token=712799e6-d666-4b3b-93d2-ccf7c9da675a')"
-    },{
-      name: "Anna",
-      title: "Bridesmaid",
-      desc: "Description",
-      photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/anna.png?alt=media&token=d02c9eb7-ff4f-44ca-8213-e5dcbe4c804d'"
-    },{
-      name: "Gwen",
-      title: "Bridesmaid",
-      desc: "Description",
-      photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/gwen.png?alt=media&token=9187a6d4-a961-4bfb-b605-84fde26374ba')"
+      name: "James",
+      title: "Bridesman",
+      desc: "James and I first met before college at an elite basketball camp, not knowing we would later become teammates, roommates, and great friends at Colgate. He is a kind-hearted person, and even though he continuously ate all of our Cheerios immediately after opening them, he will always be someone that I want in my corner. James lives in Pottstown, PA with his wonderful girlfriend, Faith.",
+      photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/james.png?alt=media&token=73957b75-df45-41d4-945f-f3f82d9112f5')"
     },{
       name: "Dyna",
       title: "Bridesmaid",
-      desc: "Description",
+      desc: "I met Dyna after working with her in Washington D.C. We quickly became friends, and though I recently moved to Charlotte, our friendship has only become stronger through the move. Dyna is the kindest and most thoughtful human, and she is also willing to go to battle for anyone she loves. She currently lives in Virginia with her husband, Francios, and their dog, Domino.",
       photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/dyna.png?alt=media&token=83da9c8d-89e7-452a-8cad-80279e9758fe')"
+    },{
+      name: "Laura",
+      title: "Bridesmaid",
+      desc: "Laura is one of my many fascinating cousins! We spent many childhood summers together in New Jersey binge-watching movies and playing DDR. When we’re not whispering jokes to each other, we are quite often shouting them out loud. Laura enjoys bonding over her Jesuit education with Colt and speaking passionately about her alma mater. She continues to share her love for Fordham University as an Alumni Relations Officer in NYC.",
+      photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/laura.png?alt=media&token=712799e6-d666-4b3b-93d2-ccf7c9da675a')"
+    },{
+      name: "Gwen",
+      title: "Bridesmaid",
+      desc: "Gwen, another cousin and close friend of mine, lives in Florida assisting the local police department with CSI work - crazy, cool, and scary at the same time. Gwen has always been fearless and shown a great love of animals (I am uncertain how many animals she currently owns). Her kind heart and smile light up any room she enters!",
+      photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/gwen.png?alt=media&token=9187a6d4-a961-4bfb-b605-84fde26374ba')"
+    },{
+      name: "Anna",
+      title: "Bridesmaid",
+      desc: "Another cousin and close friend of mine, Anna, is intelligent, warm, and bright. I have very fond memories of spending our summers under her direction, producing, performing, and recording plays that she had written. We have only grown closer with age, and I am more than happy to have her in my bridal party. Anna resides in the NYC area with her now husband, Matt Levy.",
+      photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/anna.png?alt=media&token=d02c9eb7-ff4f-44ca-8213-e5dcbe4c804d'"
     }
   ];
   activeInfo: any;

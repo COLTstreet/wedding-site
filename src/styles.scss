@@ -43,6 +43,11 @@ body {
   background: #989f7a;
 }
 
+.mat-tab-label-active {
+  background: #989f7a !important;
+  color: white !important;
+}
+
 .mat-fab.mat-primary,
 .mat-flat-button.mat-primary,
 .mat-mini-fab.mat-primary,
@@ -98,7 +103,7 @@ $secondary: #FED0C3;
       position: absolute;
       text-align: center;
       width: 80%;
-      max-width: 310px;
+      max-width: 610px;
       right: 50%;
       top: 13%;
       transform: translate(50%, 0);
@@ -252,7 +257,7 @@ $secondary: #FED0C3;
         right: 30%;
         top: 50%;
         transform: translateY(-50%);
-        width: 310px;
+        width: 610px;
         font-size: 11px;
         text-align: right;
       }
@@ -302,11 +307,11 @@ $secondary: #FED0C3;
         bottom: -12%;
         width: 240px;
         height: 50%;
-        box-shadow: -230px 0 150px 39vw rgba($black, .7);
+        box-shadow: -230px 0 150px 70vw rgba($black, .7);
       }
 
       &-content {
-        right: 25%;
+        right: 30%;
       }
     }
   }

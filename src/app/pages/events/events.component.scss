@@ -111,3 +111,19 @@
 .decorated>span:after {
   left: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+  #events-content::after {
+    content: "";
+    background: url(/assets/events-bk.jpg);
+    background-size: cover;
+    background-position: -260px;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+}

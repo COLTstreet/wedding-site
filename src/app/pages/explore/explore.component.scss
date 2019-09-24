@@ -4,7 +4,7 @@
 
 .location-content {
   overflow-y: scroll;
-  background: #FED0C3;
+  background: #FFF3F0;
   -webkit-overflow-scrolling: touch;
   font-family: helvetica neue, helvetica, arial, sans-serif;
 }
@@ -33,12 +33,12 @@
 }
 
 .selected {
-  background: #FED0C3
+  background: #FFF3F0
 }
 
 .selected-border {
   border-bottom: 2px solid;
-  border-color: #FED0C3;
+  border-color: #FFF3F0;
   background: #f8f9fa;
 }
 
