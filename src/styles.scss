@@ -137,6 +137,8 @@ $secondary: #FED0C3;
       opacity: 0;
       transform: translate3d(20px, 0, 0);
       transition: .2s ease .6s;
+      padding-top: 10px;
+      font-size: 12px;
     }
 
     &-active {
