@@ -4,6 +4,8 @@ import { AngularFireDatabase } from '@angular/fire/database';
 import { Observable } from 'rxjs';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 
+declare var $: any;
+
 @Component({
   selector: 'app-rsvp',
   templateUrl: './rsvp.component.html',
@@ -37,6 +39,8 @@ export class RsvpComponent implements OnInit {
     if(val === "C@r0le&C0lt"){
       this.showForm = true;
     }
+    $("#RSVPifyIFrame").hide();
+    // $("#RSVPifyIFrame").appendTo("#rsvp-section");
   }
 
 }
