@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 
 declare var $: any;
@@ -19,13 +19,21 @@ declare var $: any;
     ])
   ],
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent implements OnInit, AfterViewInit {
 
   constructor() { }
 
   paused = false;
   fullscreen = false;
   showTopButton = false;
+
+  ngAfterViewInit() {
+    var video = $('#full-video');
+    video[0].oncanplaythrough = function() {
+        video[0].muted = true;
+        video[0].play();
+    }
+  }
 
   ngOnInit() {
     let video = $('#full-video');
