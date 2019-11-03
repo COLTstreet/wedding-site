@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 
 import { environment } from '../environments/environment';
 
-import { ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { SwiperModule, SwiperConfigInterface, SWIPER_CONFIG } from 'ngx-swiper-wrapper';
@@ -16,12 +16,13 @@ import { RsvpComponent } from './pages/rsvp/rsvp.component';
 import { HeaderComponent } from './core/header/header.component';
 import { WeddingPartyComponent } from './pages/wedding-party/wedding-party.component';
 import { ExploreComponent, FilterPipe } from './pages/explore/explore.component';
-import { LodgingComponent } from './pages/lodging/lodging.component';
+import { LodgingComponent, EmailDialog } from './pages/lodging/lodging.component';
 import { MaterialModule } from './core/material/material.module';
 import { EventsComponent } from './pages/events/events.component';
 import { RegistryComponent } from './pages/registry/registry.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
 
 const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
   observer: true,
@@ -45,7 +46,11 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
     EventsComponent,
     RegistryComponent,
     GalleryComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    EmailDialog
+  ],
+  entryComponents: [
+    EmailDialog
   ],
   imports: [
     BrowserModule,
@@ -53,8 +58,9 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
     AppRoutingModule,
     MaterialModule,
     ReactiveFormsModule,
-    AngularFireModule.initializeApp(environment.firebase),
-    AngularFireDatabaseModule,
+    FormsModule,
+    AngularFireModule.initializeApp(environment.firebase), // imports firebase/app needed for everything
+    AngularFirestoreModule,
     SwiperModule
   ],
   providers: [

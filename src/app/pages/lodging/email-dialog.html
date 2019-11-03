@@ -1,0 +1,11 @@
+<h1 mat-dialog-title>Looking to book your accomodations?</h1>
+<div mat-dialog-content>
+  <p>Provide your email address and we will send you a notification when our room blocks become available!</p>
+  <mat-form-field class="w-100">
+    <input matInput [(ngModel)]="data.email">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions class="w-100 d-flex justify-content-end">
+  <button mat-raised-button color="primary" (click)="onNoClick()">No Thanks</button>
+  <button mat-raised-button color="primary" [mat-dialog-close]="data.email" cdkFocusInitial>Submit</button>
+</div>
