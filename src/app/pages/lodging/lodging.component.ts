@@ -44,8 +44,10 @@ export class LodgingComponent implements OnInit {
     });
 
     dialogRef.afterClosed().subscribe(result => {
-      this.email = result;
-      this.emails.add({ email: this.email });
+      if(result) {
+        this.email = result;
+        this.emails.add({ email: this.email });
+      }
     });
   }
 

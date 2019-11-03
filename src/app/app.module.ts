@@ -60,6 +60,7 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
     ReactiveFormsModule,
     FormsModule,
     AngularFireModule.initializeApp(environment.firebase), // imports firebase/app needed for everything
+    AngularFireDatabaseModule,
     AngularFirestoreModule,
     SwiperModule
   ],
