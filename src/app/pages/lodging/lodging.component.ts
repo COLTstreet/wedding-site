@@ -38,8 +38,12 @@ export class LodgingComponent implements OnInit {
   }
 
   openDialog(): void {
+    let width = "50vw";
+    if (window.matchMedia("(max-width: 700px)").matches) { // If media query matches
+      width = "90vw";
+    }
     const dialogRef = this.dialog.open(EmailDialog, {
-      width: '50vw',
+      width: width,
       data: {name: this.email}
     });
 
