@@ -1,15 +1,58 @@
-.bk-black {
-  background: black;
+.bk-hilton {
+  background: url("/assets/hilton.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
-.bk-blue {
-  background: #0067B1;
+.bk-casa {
+  background-image: url("/assets/casa.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .full {
   height: calc(100vh - 80px);
 }
 
+.info-content {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 10px 0;
+  border-radius: 5px;
+  height: 260px;
+}
+
+.info-content-black {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px 0;
+  border-radius: 5px;
+  height: 260px;
+  color: white;
+}
+
+.info-content a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+.info-content a:hover {
+  color: #686d68;
+}
+
+.info-content-black a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+.info-content-black a:hover {
+  color: #686d68;
+}
+
 img {
-  width: 100%;
+  width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .bk-casa {
+    margin-top: 270px;
+  }
 }
