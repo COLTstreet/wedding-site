@@ -1,7 +1,6 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA, MatDialog } from '@angular/material';
 import { AngularFirestore } from '@angular/fire/firestore';
-import { Observable } from 'rxjs';
 
 
 export interface DialogData {
@@ -24,7 +23,10 @@ export class LodgingComponent implements OnInit {
   emailList = [];
 
   ngOnInit() {
-    let svc = this;
+    if (window.matchMedia("(max-width: 700px)").matches) { // If media query matches
+      document.getElementById("jaxLink").textContent = "JAX";
+    }
+    // let svc = this;
     // setTimeout(function(){ 
     //   svc.openDialog(); 
     // }, 1000);
