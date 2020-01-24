@@ -11,7 +11,19 @@
 }
 
 .full {
-  height: calc(100vh - 80px);
+  height: calc(80vh - 80px);
+}
+
+.flying-section {
+  height: 20vh;
+}
+
+.b-right {
+  border-right: 1px solid black;
+}
+
+.font-small {
+  font-size: 12px;
 }
 
 .info-content {
@@ -19,6 +31,7 @@
   padding: 10px 0;
   border-radius: 5px;
   height: 260px;
+  width: 100%;
 }
 
 .info-content-black {
@@ -27,6 +40,7 @@
   border-radius: 5px;
   height: 260px;
   color: white;
+  width: 100%;
 }
 
 .info-content a {
@@ -49,10 +63,4 @@
 
 img {
   width: 50%;
-}
-
-@media only screen and (max-width: 600px) {
-  .bk-casa {
-    margin-top: 270px;
-  }
 }

@@ -81,7 +81,7 @@ export class WeddingPartyComponent implements OnInit {
     },{
       name: "James",
       title: "Bridesman",
-      desc: "James and I first met before college at an elite basketball camp, not knowing we would later become teammates, roommates, and great friends at Colgate. He is a kind-hearted person, and even though he continuously ate all of our Cheerios immediately after opening them, he will always be someone that I want in my corner. James lives in Pottstown, PA with his wonderful girlfriend, Faith.",
+      desc: "James and I first met before college at an elite basketball camp, not knowing we would later become teammates, roommates, and great friends at Colgate. He is a kind-hearted person, and even though he continuously ate all of our Cheerios immediately after opening them, he will always be someone that I want in my corner. James currently lives in Pottstown, PA.",
       photo: "url('https://firebasestorage.googleapis.com/v0/b/engagement-site.appspot.com/o/james.png?alt=media&token=aa2142db-aab5-4480-b80d-231d1d9242bd')"
     },{
       name: "Dyna",

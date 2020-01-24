@@ -25,9 +25,9 @@ export class LodgingComponent implements OnInit {
 
   ngOnInit() {
     let svc = this;
-    setTimeout(function(){ 
-      svc.openDialog(); 
-    }, 1000);
+    // setTimeout(function(){ 
+    //   svc.openDialog(); 
+    // }, 1000);
 
     // this.emails.valueChanges().subscribe(e => { 
     //   for(let name of e) {
