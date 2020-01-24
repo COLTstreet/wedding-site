@@ -64,3 +64,9 @@
 img {
   width: 50%;
 }
+
+@media only screen and (max-width: 600px) {
+  .b-right {
+    border-right: none;
+  }
+}
