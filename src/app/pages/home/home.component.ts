@@ -1,7 +1,14 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { trigger, state, style, animate, transition } from '@angular/animations';
+import { EmailDialog } from '../lodging/lodging.component';
+import { MatDialogRef, MAT_DIALOG_DATA, MatDialog } from '@angular/material';
+import { AngularFirestore } from '@angular/fire/firestore';
 
 declare var $: any;
+
+export interface DialogData {
+  email: string;
+}
 
 @Component({
   selector: 'app-home',
@@ -21,11 +28,17 @@ declare var $: any;
 })
 export class HomeComponent implements OnInit, AfterViewInit {
 
-  constructor() { }
+  constructor(public dialog: MatDialog, db: AngularFirestore) { 
+    this.emails = db.collection<DialogData>('/emails');
+  }
 
   paused = false;
   fullscreen = false;
   showTopButton = false;
+
+  email: any;
+  emails: any;
+  emailList = [];
 
   ngAfterViewInit() {
     var video = $('#full-video');
@@ -33,6 +46,16 @@ export class HomeComponent implements OnInit, AfterViewInit {
         video[0].muted = true;
         video[0].play();
     }
+    let svc = this;
+    setTimeout(function(){ 
+      svc.openDialog(); 
+    }, 1000);
+
+    this.emails.valueChanges().subscribe(e => { 
+      for(let name of e) {
+        this.emailList.push(name.email);
+      }
+    });
   }
 
   ngOnInit() {
@@ -62,6 +85,24 @@ export class HomeComponent implements OnInit, AfterViewInit {
       thumbnailLabel:            { "display" : false }
     });
     
+  }
+
+  openDialog(): void {
+    let width = "50vw";
+    if (window.matchMedia("(max-width: 700px)").matches) { // If media query matches
+      width = "90vw";
+    }
+    const dialogRef = this.dialog.open(EmailDialog, {
+      width: width,
+      data: {name: this.email}
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      if(result) {
+        this.email = result;
+        this.emails.add({ email: this.email });
+      }
+    });
   }
 
   countdownInit() {
