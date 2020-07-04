@@ -17,8 +17,16 @@
   z-index: -1;
 }
 
+.transportation-blurb {
+  text-align: center;
+  font-size: 12px;
+  background: #abb2aa;
+  z-index: 10;
+  width: 100%;
+}
+
 .events-square {
-  height: calc(33.3vh - 26.5px);
+  height: calc(33.3vh - 32.5px);
   padding: 0 !important;
   background: white;
 }

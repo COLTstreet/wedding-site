@@ -36,7 +36,7 @@ export class RsvpComponent implements OnInit {
   }
 
   checkPassword(val) {
-    if(val === "C@r0le&C0lt"){
+    if(val === "carole42&colt3"){
       this.showForm = true;
     }
     $("#RSVPifyIFrame").hide();
