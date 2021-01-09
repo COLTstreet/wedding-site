@@ -91,6 +91,21 @@
     },
     {
       "geometry": {
+        "coordinates": [-81.309898, 29.888149],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "This is where we shared our vows on October 11th, 2020. We highly recommend to tour or visit the property, as it is a beautiful piece of St. Augustine's history. The González–Alvarez House, also known as The Oldest House, is a historic house museum at 14 St. Francis Street in St. Augustine, Florida.",
+        "description": "<a href=\"https://saintaugustinehistoricalsociety.org/oldest-house-museum-complex/\" target=\"_blank\"><strong>Fountain of Youth</strong></a><p>This is where we shared our vows on October 11th, 2020. We highly recommend to tour or visit the property, as it is a beautiful piece of St. Augustine's history. The González–Alvarez House, also known as The Oldest House, is a historic house museum at 14 St. Francis Street in St. Augustine, Florida.</p>",
+        "icon": "museum",
+        "id": "oldestHouse",
+        "url": "https://saintaugustinehistoricalsociety.org/oldest-house-museum-complex/",
+        "name": "Oldest House - Gonzalez-Alvarez House"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
         "coordinates": [-81.315791, 29.907049],
         "type": "Point"
       },

@@ -47,9 +47,9 @@ export class HomeComponent implements OnInit, AfterViewInit {
         video[0].play();
     }
     let svc = this;
-    setTimeout(function(){ 
-      svc.openDialog(); 
-    }, 1000);
+    // setTimeout(function(){ 
+    //   svc.openDialog(); 
+    // }, 1000);
 
     this.emails.valueChanges().subscribe(e => { 
       for(let name of e) {
@@ -107,7 +107,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
 
   countdownInit() {
     // Set the date we're counting down to
-    var countDownDate = new Date("Oct 11, 2020 18:00:00").getTime();
+    var countDownDate = new Date("Oct 11, 2021 18:00:00").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function () {

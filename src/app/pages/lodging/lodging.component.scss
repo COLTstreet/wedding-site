@@ -11,7 +11,12 @@
 }
 
 .full {
-  height: calc(80vh - 80px);
+  height: calc(80vh - 144px);
+}
+
+.info-blurb {
+  background: #abb2aa;
+  color: white;
 }
 
 .flying-section {
