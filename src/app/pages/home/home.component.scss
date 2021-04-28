@@ -24,7 +24,7 @@
 }
 
 .welcome-section {
-  height: 100vh;
+  height: 130vh;
   background: rgba(255, 255, 255, .7);
   position: relative;
 }
@@ -130,7 +130,7 @@
 
   .title {
     font-family: 'Amatic SC', cursive;
-    font-size: 7rem;
+    font-size: 5rem;
     color: white;
   }
 
@@ -169,7 +169,7 @@
 
   .home-bk::after {
     content: "";
-    background: url(/assets/mobile-bk.jpg);
+    background: url(/assets/mobile-bk-2.jpg);
     background-size: cover;
     background-position: center;
     opacity: 0.9;
@@ -186,6 +186,6 @@
   }
 
   .welcome-button-2 {
-    bottom: 120px;
+    bottom: 0px;
   }
 }
