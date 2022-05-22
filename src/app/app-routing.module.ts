@@ -9,6 +9,7 @@ import { EventsComponent } from './pages/events/events.component';
 import { RegistryComponent } from './pages/registry/registry.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
+import { WeddingHighlightsComponent } from './pages/wedding-highlights/wedding-highlights.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'},
@@ -20,7 +21,8 @@ const routes: Routes = [
   { path: 'events', component: EventsComponent },
   { path: 'registry', component: RegistryComponent },
   { path: 'gallery', component: GalleryComponent },
-  { path: 'about', component: AboutUsComponent }
+  { path: 'about', component: AboutUsComponent },
+  { path: 'highlights', component: WeddingHighlightsComponent }
 ];
 
 @NgModule({

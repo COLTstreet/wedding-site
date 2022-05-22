@@ -130,10 +130,10 @@ export class HomeComponent implements OnInit, AfterViewInit {
       $("#secs").text(seconds);
 
       // If the count down is finished, write some text 
-      if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("demo").innerHTML = "EXPIRED";
-      }
+      // if (distance < 0) {
+      //   clearInterval(x);
+      //   document.getElementById("demo").innerHTML = "EXPIRED";
+      // }
     }, 1000);
   }
 

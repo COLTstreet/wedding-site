@@ -23,6 +23,7 @@ import { RegistryComponent } from './pages/registry/registry.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { WeddingHighlightsComponent } from './pages/wedding-highlights/wedding-highlights.component';
 
 const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
   observer: true,
@@ -47,7 +48,8 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
     RegistryComponent,
     GalleryComponent,
     AboutUsComponent,
-    EmailDialog
+    EmailDialog,
+    WeddingHighlightsComponent
   ],
   entryComponents: [
     EmailDialog

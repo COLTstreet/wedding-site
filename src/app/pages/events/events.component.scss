@@ -1,146 +1,33 @@
-#events-content {
-  display: block;
-  position: relative;
+.event-invite {
+  height: calc(90vh - 130px);
 }
 
-#events-content::after {
-  content: "";
-  background: url(/assets/events-bk.jpg);
+.event-bk {
+  position: absolute;
+  height: calc(100vh - 130px);
+  width: 100%;
+  background-image: url(/assets/highlight-3.jpg);
   background-size: cover;
   background-position: center;
-  opacity: 1;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
 }
 
-.transportation-blurb {
-  text-align: center;
-  font-size: 12px;
+.event-card {
+  opacity: .9;
+}
+
+.event-info {
   background: #abb2aa;
-  z-index: 10;
-  width: 100%;
-}
-
-.events-square {
-  height: calc(33.3vh - 26.5px);
-  padding: 0 !important;
-  background: white;
-}
-
-.square-title {
-  font-family: 'Amatic SC', cursive;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.square-title i {
-  font-size: 26px !important;
-}
-
-.square-location {
-  line-height: 16px;
-}
-
-.square-location a {
-  color: black !important;
-}
-
-.events-square img {
-  height: 75%;
-}
-
-.logo-event {
-  height: 50px !important;
-}
-
-#welcome-party {
-  background: rgba(152, 159, 122, .5)
-}
-
-#welcome-party-info {
   text-align: center;
 }
 
-#welcome-icon {
-  color: #ABB2AA
-}
+@media screen and (max-width: 600px) {
+  .event-invite {
+    height: 100%;
+    width: 100%;
+  }
 
-#ceremony {
-  background: rgba(254, 208, 195, .5)
-}
-
-#ceremony-info {
-  text-align: center;
-}
-
-.ceremony-icons {
-  color: #FED0C3;
-}
-
-#reception {
-  background: rgba(183, 110, 121, .5)
-}
-
-.reception-icons {
-  color: #b76e79;
-}
-
-.formal-celebration {
-  font-style: italic;
-  font-size: 12px;
-}
-
-#reception-info {
-  text-align: center;
-}
-
-/* headlines with lines */
-.decorated {
-  overflow: hidden;
-  text-align: center;
-  width: 100%;
-}
-
-.decorated>span {
-  position: relative;
-  display: inline-block;
-}
-
-.decorated>span:before,
-.decorated>span:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  border-bottom: 2px solid #ABB2AA;
-  width: 591px;
-  /* half of limiter*/
-  margin: 0 20px;
-}
-
-.decorated>span:before {
-  right: 100%;
-}
-
-.decorated>span:after {
-  left: 100%;
-}
-
-@media only screen and (max-width: 600px) {
-  #events-content::after {
-    content: "";
-    background: url(/assets/events-bk.jpg);
-    background-size: cover;
-    background-position: -260px;
-    opacity: 1;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
+  .event-bk {
+    background-repeat: repeat;
+    height: 100%;
   }
 }

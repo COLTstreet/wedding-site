@@ -282,7 +282,7 @@ $secondary: #FED0C3;
     .swiper-button-prev {
       top: 15%;
       left: auto;
-      right: 15%;
+      right: 8%;
       transform: rotate(90deg) translate(0, 10px);
 
       &:hover {
@@ -293,7 +293,7 @@ $secondary: #FED0C3;
     .swiper-button-next {
       top: auto;
       bottom: 15%;
-      right: 15%;
+      right: 8%;
       transform: rotate(90deg) translate(0, 10px);
 
       &:hover {

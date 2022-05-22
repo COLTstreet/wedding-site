@@ -1,16 +1,16 @@
 <div id="home-content" class="home-bk">
-  <div class="full-ceremony-button-container">
+  <!-- <div class="full-ceremony-button-container">
     <a class="back-to-top-button" mat-raised-button color="primary" href="https://youtu.be/SZi-csfB9Rc" target="_blank">
-      Watch the Full Ceremony!
+      Watch the 2020 Ceremony!
     </a>
-  </div>
+  </div> -->
   <div class="back-to-top-button-container">
     <button class="back-to-top-button" mat-mini-fab (click)="goToTop()" color="primary">
       <mat-icon>expand_less</mat-icon>
     </button>
   </div>
   <video muted loop id="full-video" class="behind">
-    <source src="../../../assets/CEREMONY_Trim_2.mp4" type="video/mp4">
+    <source src="../../../assets/Champagne-Exit.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
   </video>
   <div class="col-12 text-right no-padding controls" *ngIf="fullscreen" [@fadeInOut]>
@@ -44,7 +44,7 @@
       </button>
     </div>
   </div>
-  <div id="welcomeSection" class="welcome-section" *ngIf="!fullscreen">
+  <!-- <div id="welcomeSection" class="welcome-section" *ngIf="!fullscreen">
     <div class="row">
       <p class="text-center subtitle-lower w-100">#DancingDownHarrisStreet<br>#AStreetCaroleNamedDesire</p>
       <p class="text-center w-100"><img class="logo-event" src="/assets/logo.png"></p>
@@ -82,7 +82,7 @@
         <mat-icon>expand_more</mat-icon>
       </button>
     </div>
-  </div>
+  </div> -->
   <div id="infoSection" class="info-section" *ngIf="!fullscreen">
     <div class="row h-100 d-flex align-items-center">
       <div>
