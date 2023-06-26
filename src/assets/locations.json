@@ -1,0 +1,454 @@
+{
+  "features": [{
+      "geometry": {
+        "coordinates": [-81.318611, 29.889394],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "The Historic FP&L Ice Plant. Built as part of St. Augustine’s ﬁrst power and ice complex in 1907 (we have pictures from 1925 in the museum to show you), we have lovingly restored and brought her back into service so she can serve the community for the next century. The Ice Plant is a contributing building to the Lincolnville Neighborhood on the National Register of Historic Places and was the ﬁrst of it’s kind to make commercial block ice in Florida over 100 years ago. Today, she is helping us make Florida’s ﬁrst bourbon and other ﬁne craft spirits. We love our new home and hope you will too.",
+        "description": "<a href=\"http://staugustinedistillery.com/?ref=VisitStAugustine.com&type=featured/\" target=\"_blank\"><strong>St. Augustine Distillery</strong></a><p>The Historic FP&L Ice Plant. Built as part of St. Augustine’s ﬁrst power and ice complex in 1907 (we have pictures from 1925 in the museum to show you), we have lovingly restored and brought her back into service so she can serve the community for the next century. The Ice Plant is a contributing building to the Lincolnville Neighborhood on the National Register of Historic Places and was the ﬁrst of it’s kind to make commercial block ice in Florida over 100 years ago. Today, she is helping us make Florida’s ﬁrst bourbon and other ﬁne craft spirits. We love our new home and hope you will too.</p>",
+        "icon": "bar",
+        "id": "stAugustineDistillery",
+        "url": "http://staugustinedistillery.com/?ref=VisitStAugustine.com&type=featured/",
+        "name": "St. Augustine Distillery"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.470318, 29.991337],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "Learn all about the accomplishments of golfers from around the world and the history of the game of golf.",
+        "description": "<a href=\"http://www.worldgolfhalloffame.org/?ref=VisitStAugustine.com&type=enhanced/\" target=\"_blank\"><strong>World Golf Hall of Fame</strong></a><p>Learn all about the accomplishments of golfers from around the world and the history of the game of golf.</p>",
+        "icon": "museum",
+        "id": "golfHallOfFame",
+        "url": "http://www.worldgolfhalloffame.org/?ref=VisitStAugustine.com&type=enhanced/",
+        "name": "World Golf Hall of Fame"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.313010, 29.896207],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "Visitors can experience three centuries of St. Augustine's vivid history through interactive activities and more at the Colonial Quarter.",
+        "description": "<a href=\"http://www.colonialquarter.com/?ref=VisitStAugustine.com&type=list/\" target=\"_blank\"><strong>Colonial Quarter</strong></a><p>Visitors can experience three centuries of St. Augustine's vivid history through interactive activities and more at the Colonial Quarter.</p>",
+        "icon": "museum",
+        "id": "colonialQuarter",
+        "url": "http://www.colonialquarter.com/?ref=VisitStAugustine.com&type=list/",
+        "name": "Colonial Quarter"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.313287, 29.894652],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "This museum showcases the darker sides of human history.",
+        "description": "<a href=\"https://medievaltorturemuseum.com/#utm_source=visitstaugustine&utm_medium=ttd-page&utm_campaign=ttd-page&utm_term=ttd-page&utm_content=ttd-page/\" target=\"_blank\"><strong>Medieval Torture Museum</strong></a><p>This museum showcases the darker sides of human history.</p>",
+        "icon": "museum",
+        "id": "medievalTortureMuseum",
+        "url": "https://medievaltorturemuseum.com/#utm_source=visitstaugustine&utm_medium=ttd-page&utm_campaign=ttd-page&utm_term=ttd-page&utm_content=ttd-page/",
+        "name": "Medieval Torture Museum"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.312869, 29.897031],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "Explore the world's largest collection of authentic pirate artifacts in a city that has seen its share of pirates.",
+        "description": "<a href=\"http://thepiratemuseum.com/?ref=VisitStAugustine.com&type=list/\" target=\"_blank\"><strong>Pirate & Treasure Museum</strong></a><p>Explore the world's largest collection of authentic pirate artifacts in a city that has seen its share of pirates.</p>",
+        "icon": "museum",
+        "id": "treasureMuseum",
+        "url": "http://thepiratemuseum.com/?ref=VisitStAugustine.com&type=list/",
+        "name": "Pirate & Treasure Museum"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.314918, 29.897506],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "The whole family can enjoy interacting with famous figures from history as well as modern movie stars and more at Potter's Wax Museum in St. Augustine.",
+        "description": "<a href=\"https://www.potterswaxmuseum.com/?ref=VisitStAugustine.com&type=list/\" target=\"_blank\"><strong>Potter's Wax Museum</strong></a><p>The whole family can enjoy interacting with famous figures from history as well as modern movie stars and more at Potter's Wax Museum in St. Augustine.</p>",
+        "icon": "museum",
+        "id": "waxMuseum",
+        "url": "https://www.potterswaxmuseum.com/?ref=VisitStAugustine.com&type=list/",
+        "name": "Potter's Wax Museum"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.309898, 29.888149],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "This is where we shared our vows on October 11th, 2020. We highly recommend to tour or visit the property, as it is a beautiful piece of St. Augustine's history. The González–Alvarez House, also known as The Oldest House, is a historic house museum at 14 St. Francis Street in St. Augustine, Florida.",
+        "description": "<a href=\"https://saintaugustinehistoricalsociety.org/oldest-house-museum-complex/\" target=\"_blank\"><strong>Fountain of Youth</strong></a><p>This is where we shared our vows on October 11th, 2020. We highly recommend to tour or visit the property, as it is a beautiful piece of St. Augustine's history. The González–Alvarez House, also known as The Oldest House, is a historic house museum at 14 St. Francis Street in St. Augustine, Florida.</p>",
+        "icon": "museum",
+        "id": "oldestHouse",
+        "url": "https://saintaugustinehistoricalsociety.org/oldest-house-museum-complex/",
+        "name": "Oldest House - Gonzalez-Alvarez House"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.315791, 29.907049],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "The Fountain of Youth gives visitors a chance to experience history at this important archaeological site and to drink from the famous springs.",
+        "description": "<a href=\"http://www.fountainofyouthflorida.com/?ref=VisitStAugustine.com&type=list/\" target=\"_blank\"><strong>Fountain of Youth</strong></a><p>The Fountain of Youth gives visitors a chance to experience history at this important archaeological site and to drink from the famous springs.</p>",
+        "icon": "museum",
+        "id": "fountainOfYouth",
+        "url": "http://www.fountainofyouthflorida.com/?ref=VisitStAugustine.com&type=list/",
+        "name": "Fountain of Youth"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.314403, 29.894952],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "Located in the heart of Old Town, Scarlett's is a fun place for casual southern fare, award winning BBQ and great cocktails with a beautiful outside deck and bar.",
+        "description": "<a href=\"https://www.scarlettoharas.net/\" target=\"_blank\"><strong>Scarlett O'Hara's</strong></a><p>Located in the heart of Old Town, Scarlett's is a fun place for casual southern fare, award winning BBQ and great cocktails with a beautiful outside deck and bar.</p>",
+        "icon": "bar",
+        "id": "scarletteOHara",
+        "url": "https://www.scarlettoharas.net/",
+        "name": "Scarlett O'Hara's"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.311563, 29.893038],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "Come hang out at the Taproom in historic downtown Saint Augustine or come play a round of pool and chat with our brewers at the Brewhouse off SR 16.",
+        "description": "<a href=\"https://www.ancientcitybrewing.com/home\" target=\"_blank\"><strong>Ancient City Brewing</strong></a><p>Come hang out at the Taproom in historic downtown Saint Augustine or come play a round of pool and chat with our brewers at the Brewhouse off SR 16.</p>",
+        "icon": "bar",
+        "id": "ancientCityBrewing",
+        "url": "https://www.ancientcitybrewing.com/home",
+        "name": "Ancient City Brewing"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.311013, 29.893631],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "Harry's Seafood Bar & Grille, established in 1987, serves the very best of southern, cajun and creole flavors in classic and modern dishes. Full bar is available at each location and offers beer, wine, liquor and Harry's own unique cocktail creations.",
+        "description": "<a href=\"https://hookedonharrys.com/?ref=VisitStAugustine.com&type=list\" target=\"_blank\"><strong>Harry's Seafood Bar & Grille</strong></a><p>Harry's Seafood Bar & Grille, established in 1987, serves the very best of southern, cajun and creole flavors in classic and modern dishes. Full bar is available at each location and offers beer, wine, liquor and Harry's own unique cocktail creations.</p>",
+        "icon": "restaurant",
+        "id": "harrysSeafood",
+        "url": "https://hookedonharrys.com/?ref=VisitStAugustine.com&type=list",
+        "name": "Harry's Seafood Bar & Grille"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.310695, 29.892378],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "The popular and often packed A1A prides itself on brewing a selection of ales, lagers and seasonal brews that range from golden to black, each with a distinctive flavor and numerous fans.",
+        "description": "<a href=\"https://www.a1aaleworks.com/\" target=\"_blank\"><strong>A1A Ale Works</strong></a><p>The popular and often packed A1A prides itself on brewing a selection of ales, lagers and seasonal brews that range from golden to black, each with a distinctive flavor and numerous fans.</p>",
+        "icon": "bar",
+        "id": "a1aAlesWorks",
+        "url": "https://www.a1aaleworks.com/",
+        "name": "A1A Ale Works"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.312332, 29.896780],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "For weekly drink deals, tasty food, and good music come by the Bar with No Name in historic downtown St. Augustine.",
+        "description": "<a href=\"https://www.visitstaugustine.com/restaurant/bar-no-name\" target=\"_blank\"><strong>The Bar with No Name</strong></a><p>For weekly drink deals, tasty food, and good music come by the Bar with No Name in historic downtown St. Augustine.</p>",
+        "icon": "bar",
+        "id": "barWithNoName",
+        "url": "https://www.visitstaugustine.com/restaurant/bar-no-name",
+        "name": "The Bar with No Name"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.311982, 29.895677],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "Stogie's is a small, intimate bar with a clubby feel. Dark lighting, cigar smoke in the air, leather sofas and live music all set the mood for a cozy evening. Micro brews and a full wine and port selection can be paired with your favorite cigar from the humidor.",
+        "description": "<a href=\"https://www.10best.com/destinations/florida/st.-augustine/historic-downtown/nightlife/stogies-jazz-club-listening-room/\" target=\"_blank\"><strong>Stogie's Jazz Club & Listening Room</strong></a><p>Stogie's is a small, intimate bar with a clubby feel. Dark lighting, cigar smoke in the air, leather sofas and live music all set the mood for a cozy evening. Micro brews and a full wine and port selection can be paired with your favorite cigar from the humidor.</p>",
+        "icon": "bar",
+        "id": "stogies",
+        "url": "https://www.10best.com/destinations/florida/st.-augustine/historic-downtown/nightlife/stogies-jazz-club-listening-room/",
+        "name": "Stogie's Jazz Club & Listening Room"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.313611, 29.892710],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "There are no hotels in St. Augustine quite like the Casa Monica. Its majestic history greets you at the door and then draws you in with promises of a storied past and secrets to uncover in every detail—from the Moroccan frescos and ornate chandeliers to the exquisite tapestries that line the walls.",
+        "description": "<a href=\"https://www.kesslercollection.com/casa-monica/\" target=\"_blank\"><strong>Casa Monica Resport & Spa</strong></a><p>There are no hotels in St. Augustine quite like the Casa Monica. Its majestic history greets you at the door and then draws you in with promises of a storied past and secrets to uncover in every detail—from the Moroccan frescos and ornate chandeliers to the exquisite tapestries that line the walls.</p>",
+        "icon": "lodging",
+        "id": "casaMonica",
+        "url": "https://www.kesslercollection.com/casa-monica/",
+        "name": "Casa Monica Resport & Spa"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.323354, 29.889331],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "Colorful and contemporary, our TRYP by Wyndham Sebastian St. Augustine hotel is a coastal-chic retreat in one of the oldest cities in the United States.",
+        "description": "<a href=\"https://www.wyndhamhotels.com/tryp/st-augustine-florida/tryp-sebastian-saint-augustine/overview\" target=\"_blank\"><strong>TRYP by Wyndham Sebastian St. Augustine</strong></a><p>Colorful and contemporary, our TRYP by Wyndham Sebastian St. Augustine hotel is a coastal-chic retreat in one of the oldest cities in the United States.</p>",
+        "icon": "lodging",
+        "id": "trypWyndham",
+        "url": "https://www.wyndhamhotels.com/tryp/st-augustine-florida/tryp-sebastian-saint-augustine/overview",
+        "name": "TRYP by Wyndham Sebastian St. Augustine"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.311487, 29.894370],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "Hilton St. Augustine Historic Bayfront, with its 19 colorful buildings inspired by the Second Spanish Colonial period, is situated across the Matanzas Bay within the heart of the historic downtown district. ",
+        "description": "<a href=\"https://www3.hilton.com/en/hotels/florida/hilton-st-augustine-historic-bayfront-USTHDHF/index.html\" target=\"_blank\"><strong>Hilton St. Augustine Historic Bayfront</strong></a><p>Hilton St. Augustine Historic Bayfront, with its 19 colorful buildings inspired by the Second Spanish Colonial period, is situated across the Matanzas Bay within the heart of the historic downtown district. </p>",
+        "icon": "lodging",
+        "id": "hiltonBayfront",
+        "url": "https://www3.hilton.com/en/hotels/florida/hilton-st-augustine-historic-bayfront-USTHDHF/index.html",
+        "name": "Hilton St. Augustine Historic Bayfront"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.328390, 29.858130],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "For the ultimate in pet boarding and doggy daycare, stop ruffing it and live the purrfect life at Pet Paradise St. Augustine. Enjoy air-conditioned indoor/outdoor suites, expert grooming and shady play areas.",
+        "description": "<a href=\"https://www.petparadise.com/st-augustine.htm\" target=\"_blank\"><strong>Pet Paradise</strong></a><p>For the ultimate in pet boarding and doggy daycare, stop ruffing it and live the purrfect life at Pet Paradise St. Augustine. Enjoy air-conditioned indoor/outdoor suites, expert grooming and shady play areas.</p>",
+        "icon": "veterinary",
+        "id": "petParadise",
+        "url": "https://www.petparadise.com/st-augustine.htm",
+        "name": "Pet Paradise"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.323960, 29.878019],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "The practice was founded in 1980 by Dr. Jack Shuler. He started the veterinary hospital in a small house on the current location. The practice quickly outgrew the house requiring the construction of a new 5000 square foot hospital on the site.",
+        "description": "<a href=\"http://stjohnsvet.com/\" target=\"_blank\"><strong>St Johns Veterinary Hospital & Cat Clinic</strong></a><p>The practice was founded in 1980 by Dr. Jack Shuler. He started the veterinary hospital in a small house on the current location. The practice quickly outgrew the house requiring the construction of a new 5000 square foot hospital on the site.</p>",
+        "icon": "veterinary",
+        "id": "stJohnsVet",
+        "url": "http://stjohnsvet.com/",
+        "name": "St Johns Veterinary Hospital & Cat Clinic"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.251603, 29.768727],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "Crescent Beach is a beautiful stretch of the Florida coast just south of St. Augustine. It gets its name from the natural shape on the coastline. The hard-packed sand lends itself to activities including beach bike rides, walks, frisbee, and volleyball.",
+        "description": "<a href=\"https://www.visitstaugustine.com/thing-to-do/crescent-beach\" target=\"_blank\"><strong>Crescent Beach</strong></a><p>Crescent Beach is a beautiful stretch of the Florida coast just south of St. Augustine. It gets its name from the natural shape on the coastline. The hard-packed sand lends itself to activities including beach bike rides, walks, frisbee, and volleyball.</p>",
+        "icon": "beach",
+        "id": "crescentBeach",
+        "url": "https://www.visitstaugustine.com/thing-to-do/crescent-beach",
+        "name": "Crescent Beach"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.265297, 29.844176],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "St. Augustine Beach is located on Anastasia Island where you can enjoy white sand beaches, the St. Johns County Pier, a playground, pavilion, fishing pier, volleyball courts, bait shops, fine restaurants, shopping and more.",
+        "description": "<a href=\"https://www.staugbch.com/\" target=\"_blank\"><strong>St Augustine Beach</strong></a><p>St. Augustine Beach is located on Anastasia Island where you can enjoy white sand beaches, the St. Johns County Pier, a playground, pavilion, fishing pier, volleyball courts, bait shops, fine restaurants, shopping and more.</p>",
+        "icon": "beach",
+        "id": "augustineBeach",
+        "url": "https://www.staugbch.com/",
+        "name": "St Augustine Beach"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.289753, 29.916358],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "Just north of the historic district, Vilano Beach is a charming community and the beach is one of St. Augustine's best-kept secret.",
+        "description": "<a href=\"https://www.visitstaugustine.com/thing-to-do/vilano-beach\" target=\"_blank\"><strong>Vilano Beach</strong></a><p>Just north of the historic district, Vilano Beach is a charming community and the beach is one of St. Augustine's best-kept secret.</p>",
+        "icon": "beach",
+        "id": "vilanoBeach",
+        "url": "https://www.visitstaugustine.com/thing-to-do/vilano-beach",
+        "name": "Vilano Beach"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.299924, 29.891442],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "Our La Quinta by Wyndham St. Augustine Historic Area is conveniently located along Highway A1A and within walking distance of downtown St. Augustine. The area is full of popular shops, restaurants, beaches, and more.",
+        "description": "<a href=\"https://www.wyndhamhotels.com/laquinta/st-augustine-florida/la-quinta-st-augustine-florida/overview?CID=LC:LQ::GGL:RIO:National:53747&iata=00093796\" target=\"_blank\"><strong>La Quinta by Wyndham St. Augustine Historic Area</strong></a><p>Our La Quinta® by Wyndham St. Augustine Historic Area is conveniently located along Highway A1A and within walking distance of downtown St. Augustine. The area is full of popular shops, restaurants, beaches, and more.</p>",
+        "icon": "lodging",
+        "id": "laQuinta",
+        "url": "https://www.wyndhamhotels.com/laquinta/st-augustine-florida/la-quinta-st-augustine-florida/overview?CID=LC:LQ::GGL:RIO:National:53747&iata=00093796",
+        "name": "La Quinta by Wyndham St. Augustine Historic Area"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.312986, 29.889390],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "The Collector sits on the edge of St. Augustine’s Old Town, within easy walking distance of the city’s most celebrated attractions.",
+        "description": "<a href=\"https://thecollectorinn.com/?utm_source=google&utm_medium=organic&utm_campaign=business_listing\" target=\"_blank\"><strong>The Collector Luxury Inn & Gardens</strong></a><p>The Collector sits on the edge of St. Augustine’s Old Town, within easy walking distance of the city’s most celebrated attractions.</p>",
+        "icon": "lodging",
+        "id": "collectorInn",
+        "url": "https://thecollectorinn.com/?utm_source=google&utm_medium=organic&utm_campaign=business_listing",
+        "name": "The Collector Luxury Inn & Gardens"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.317750, 29.904440],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "Relax with modern comforts and warm hospitality at DoubleTree by Hilton Hotel St. Augustine Historic District. Savor our warm signature DoubleTree cookie at check-in and retreat to your spacious guest room. Each of our rooms boast contemporary decor and a range of amenities, including WiFi and a spacious work desk with ergonomic chair.",
+        "description": "<a href=\"https://doubletree3.hilton.com/en/hotels/florida/doubletree-by-hilton-hotel-st-augustine-historic-district-USTSMDT/index.html?SEO_id=GMB-DT-USTSMDT\" target=\"_blank\"><strong>DoubleTree by Hilton Hotel St. Augustine Historic District</strong></a><p>Relax with modern comforts and warm hospitality at DoubleTree by Hilton Hotel St. Augustine Historic District. Savor our warm signature DoubleTree cookie at check-in and retreat to your spacious guest room. Each of our rooms boast contemporary decor and a range of amenities, including WiFi and a spacious work desk with ergonomic chair.</p>",
+        "icon": "lodging",
+        "id": "doubleTreeHilton",
+        "url": "https://doubletree3.hilton.com/en/hotels/florida/doubletree-by-hilton-hotel-st-augustine-historic-district-USTSMDT/index.html?SEO_id=GMB-DT-USTSMDT",
+        "name": "DoubleTree by Hilton Hotel St. Augustine Historic District"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.312550, 29.894207],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "Deep in the heart of America's oldest city, a vintage gastropub and lounge is being born.  Invoking the spirit of Bartolo, who on this very spot created Genovar Theater, the social epicenter of Flagler's prohibition era... we offer you an escape into the clandestine, mysterious, and yes, illegal world of flapper dresses, speakeasies, moonshine, and swing. ",
+        "description": "<a href=\"https://pkstaug.com\" target=\"_blank\"><strong>Prohibition Kitchen</strong></a><p>Deep in the heart of America's oldest city, a vintage gastropub and lounge is being born.  Invoking the spirit of Bartolo, who on this very spot created Genovar Theater, the social epicenter of Flagler's prohibition era... we offer you an escape into the clandestine, mysterious, and yes, illegal world of flapper dresses, speakeasies, moonshine, and swing. </p>",
+        "icon": "bar",
+        "id": "prohibitionKitchen",
+        "url": "https://pkstaug.com",
+        "name": "Prohibition Kitchen"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.311679, 29.891140],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "Built as a merchant’s home and place of business in 1798, the coquina stone Ximenez House later became “Miss Fatio’s,” St. Augustine’s most fashionable boarding house. Today, it is a historic house museum, carefully researched and authentically restored to reflect its heyday during Florida’s first tourism boom throughout its Territorial and Early Statehood periods of 1821-1861.",
+        "description": "<a href=\"https://www.ximenezfatiohouse.org/\" target=\"_blank\"><strong>Ximenez-Fatio House Museum</strong></a><p>Built as a merchant’s home and place of business in 1798, the coquina stone Ximenez House later became “Miss Fatio’s,” St. Augustine’s most fashionable boarding house. Today, it is a historic house museum, carefully researched and authentically restored to reflect its heyday during Florida’s first tourism boom throughout its Territorial and Early Statehood periods of 1821-1861.</p>",
+        "icon": "museum",
+        "id": "ximenezFatio",
+        "url": "https://www.ximenezfatiohouse.org/",
+        "name": "Ximenez-Fatio House Museum"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.315134, 29.891624],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "The Villa Zorayda was built in 1883 as the winter residence of Franklin Webster Smith utilizing his method of construction, poured concrete and crushed coquina shell. Smith replicated architectural details of the Alhambra Palace in Granada, Spain for his residence. The Villa Zorayda set a precedence for architecture in St. Augustine and began the Moorish Spanish Revival style of architecture that is seen throughout the city today as well as the concrete and coquina construction that was used throughout the city.",
+        "description": "<a href=\"https://villazorayda.com/\" target=\"_blank\"><strong>Villa Zorayda Museum</strong></a><p>The Villa Zorayda was built in 1883 as the winter residence of Franklin Webster Smith utilizing his method of construction, poured concrete and crushed coquina shell. Smith replicated architectural details of the Alhambra Palace in Granada, Spain for his residence. The Villa Zorayda set a precedence for architecture in St. Augustine and began the Moorish Spanish Revival style of architecture that is seen throughout the city today as well as the concrete and coquina construction that was used throughout the city.</p>",
+        "icon": "museum",
+        "id": "villaZorayda",
+        "url": "https://villazorayda.com/",
+        "name": "Villa Zorayda Museum"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-81.307613, 29.892908],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "Scenic drawbridge founded in 1927, with 2 white marble lion statues, copies of originals in Italy.",
+        "description": "<a href=\"http://www.staugustinegovernment.com/\" target=\"_blank\"><strong>Bridge of Lions</strong></a><p>Scenic drawbridge founded in 1927, with 2 white marble lion statues, copies of originals in Italy.</p>",
+        "icon": "museum",
+        "id": "bridgeOfLions",
+        "url": "http://www.staugustinegovernment.com/",
+        "name": "Bridge of Lions"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [],
+        "type": "Point"
+      },
+      "properties": {
+        "clean": "",
+        "description": "<a href=\"\" target=\"_blank\"><strong></strong></a><p></p>",
+        "icon": "",
+        "id": "",
+        "url": "",
+        "name": ""
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

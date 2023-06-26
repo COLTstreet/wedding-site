@@ -1,0 +1,33 @@
+.event-invite {
+  height: calc(90vh - 130px);
+}
+
+.event-bk {
+  position: absolute;
+  height: calc(100vh - 130px);
+  width: 100%;
+  background-image: url(/assets/highlight-3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.event-card {
+  opacity: .9;
+}
+
+.event-info {
+  background: #abb2aa;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .event-invite {
+    height: 100%;
+    width: 100%;
+  }
+
+  .event-bk {
+    background-repeat: repeat;
+    height: 100%;
+  }
+}

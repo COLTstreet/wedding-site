@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "engagement-site": {
+      "hosting": {
+        "carole-and-colt": [
+          "engagement-site"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "engagement-site"
+  }
+}

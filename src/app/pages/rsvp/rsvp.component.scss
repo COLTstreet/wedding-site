@@ -1,0 +1,70 @@
+.backdrop {
+  background: url("/assets/timeline-5.png");
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  width: 100%;
+}
+
+.vaccine-text {
+  background: #abb2aa;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.rsvp-form {
+  overflow: auto;
+}
+
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* 4x3 Aspect Ratio */
+.iframe-container-4x3 {
+  padding-top: 75%;
+}
+
+.text {
+  color: black;
+  border: 4px solid;
+  background: rgba(255, 255, 255, .7);
+  mix-blend-mode: lighten;
+  font: bolder 5vw 'Cinzel Decorative';
+  text-align: center;
+  margin: 0;
+}
+
+.password-text {
+  font-size: 5vw;
+  font-family: 'Amatic SC', cursive;
+}
+
+@media only screen and (max-width: 600px) {
+  .backdrop {
+    height: 200px;
+  }
+
+  .text {
+    height: 200px;
+    font-size: 140px;
+    padding-top: 10px;
+  }
+
+  .rsvp-info-text {
+    font-size: 12px !important;
+    text-align: center;
+  }
+}

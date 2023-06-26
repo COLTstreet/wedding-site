@@ -1,0 +1,12 @@
+<h6 mat-dialog-title style="font-size: 16px;" class="mb-2">Update for Our Family and Friends</h6>
+<div mat-dialog-content>
+  <p class="pb-0 mb-0" style="font-size: 13px;">As we all adapt to an uncertain time with COVID-19 (coronavirus), we have decided to postpone our reception until October 10, 2021. Our ceremony will continue with immediate family. Please provide your email
+    address so we can send you future communications regarding our celebration in the coming year. Thank you all so much and we can't wait to celebrate with you in 2021!</p>
+  <mat-form-field class="w-100">
+    <input matInput [(ngModel)]="data.email">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions class="w-100 d-flex justify-content-end">
+  <button mat-raised-button color="primary" (click)="onNoClick()">No Thanks</button>
+  <button mat-raised-button color="primary" [mat-dialog-close]="data.email" cdkFocusInitial>Submit</button>
+</div>

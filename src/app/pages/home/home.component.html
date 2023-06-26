@@ -1,0 +1,108 @@
+<div id="home-content" class="home-bk">
+    <!-- <div class="full-ceremony-button-container">
+      <a class="back-to-top-button" mat-raised-button color="primary" href="https://youtu.be/SZi-csfB9Rc" target="_blank">
+        Watch the 2020 Ceremony!
+      </a>
+    </div> -->
+    <div class="back-to-top-button-container">
+        <button class="back-to-top-button" mat-mini-fab (click)="goToTop()" color="primary">
+            <mat-icon>expand_less</mat-icon>
+        </button>
+    </div>
+    <video muted loop id="full-video" class="behind">
+        <source src="../../../assets/Champagne-Exit.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <div class="col-12 text-end no-padding controls" *ngIf="fullscreen" [@fadeInOut]>
+        <button class="btn btn-primary btn-lg btn-clear text-white" (click)="pausePlay()">
+            <i class="fas" [ngClass]="{'fa-pause': !paused, 'fa-play': paused}"></i>
+        </button>
+        <button class="btn btn-primary btn-lg btn-clear text-white" (click)="goFullscreen()">
+            <i class="fas" [ngClass]="{'fa-expand': !fullscreen, 'fa-compress': fullscreen}"></i>
+        </button>
+    </div>
+    <div class="content" *ngIf="!fullscreen" [@fadeInOut]>
+        <app-header></app-header>
+        <div class="row video-controls">
+            <div class="col-6"></div>
+            <div class="col-6 text-end no-padding">
+                <button class="btn btn-primary btn-lg btn-clear text-white" (click)="pausePlay()">
+                    <i class="fas" [ngClass]="{'fa-pause': !paused, 'fa-play': paused}"></i>
+                </button>
+                <button class="btn btn-primary btn-lg btn-clear text-white" (click)="goFullscreen()">
+                    <i class="fas" [ngClass]="{'fa-expand': !fullscreen, 'fa-compress': fullscreen}"></i>
+                </button>
+            </div>
+        </div>
+        <div>
+            <p class="text-center title w-100">Carole & Colt</p>
+            <p class="text-center subtitle w-100">10 • 10 • 2021</p>
+        </div>
+        <div class="welcome-button">
+            <button mat-mini-fab (click)="goToInfo()" color="primary">
+                <mat-icon>expand_more</mat-icon>
+            </button>
+        </div>
+    </div>
+    <!-- <div id="welcomeSection" class="welcome-section" *ngIf="!fullscreen">
+      <div class="row">
+        <p class="text-center subtitle-lower w-100">#DancingDownHarrisStreet<br>#AStreetCaroleNamedDesire</p>
+        <p class="text-center w-100"><img class="logo-event" src="/assets/logo.png"></p>
+        <p class="text-center w-100 our-story">
+          Things may seem a bit uncertain, but we do know that our family and friends are most important to us. Though we
+          were officially married on October 11th, 2020, we still wish to share our continued love and appreciation with
+          the most wonderful family and friends. Each of you has played an integral part in our lives, and we hope to see
+          you at our Vow Renewal and Celebration.
+        </p>
+        <br>
+        <p class="text-center w-100 our-story">We look forward to seeing you on October 10, 2021, but until then, please
+          enjoy this site, our ceremony video,
+          the amazing wedding photographs, and more!</p>
+        <div class="w-100 d-flex justify-content-center">
+          <table class="countdown-table w-50">
+            <tr>
+              <td class="count-square">
+                <div><span id="days"></span><span class="count-text"> days</span></div>
+              </td>
+              <td class="count-square">
+                <div><span id="hours"></span><span class="count-text"> hours</span></div>
+              </td>
+              <td class="count-square">
+                <div><span id="mins"></span><span class="count-text"> minutes</span></div>
+              </td>
+              <td class="count-square">
+                <div><span id="secs"></span><span class="count-text"> seconds</span></div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="welcome-button welcome-button-2">
+        <button mat-mini-fab (click)="goToInfo()" color="primary">
+          <mat-icon>expand_more</mat-icon>
+        </button>
+      </div>
+    </div> -->
+    <div id="infoSection" class="info-section" *ngIf="!fullscreen">
+        <div class="row h-100 d-flex align-items-center">
+            <div>
+                <!-- <p class="text-center subtitle-lower w-100">Title</p> -->
+                <p class="text-center"><img class="how-they-asked-logo" src="/assets/asked.png"></p>
+                <p class="text-center our-story">
+                    Every good story starts with a sweaty shirt and an email… right? Take a look back to 2015, before
+                    all of the
+                    basketball games, the movie marathons, and even before Zoey, to learn about our first moments
+                    together and <a href="https://howtheyasked.com/carole-and-colt/" target="_blank">how we met.</a>
+                </p>
+            </div>
+        </div>
+        <div class="welcome-button welcome-button-2">
+            <button mat-mini-fab (click)="goToGallery()" color="primary">
+                <mat-icon>expand_more</mat-icon>
+            </button>
+        </div>
+    </div>
+    <div id="gallerySection">
+        <div id="nanogallery"></div>
+    </div>
+</div>

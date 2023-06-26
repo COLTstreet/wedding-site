@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "carole-and-colt",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

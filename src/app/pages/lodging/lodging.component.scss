@@ -1,0 +1,77 @@
+.bk-hilton {
+  background: url("/assets/hilton.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.bk-casa {
+  background-image: url("/assets/casa.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.full {
+  height: calc(80vh - 144px);
+}
+
+.info-blurb {
+  background: #abb2aa;
+  color: white;
+}
+
+.flying-section {
+  height: 20vh;
+}
+
+.b-right {
+  border-right: 1px solid black;
+}
+
+.font-small {
+  font-size: 12px;
+}
+
+.info-content {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 10px 0;
+  border-radius: 5px;
+  height: 260px;
+  width: 100%;
+}
+
+.info-content-black {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px 0;
+  border-radius: 5px;
+  height: 260px;
+  color: white;
+  width: 100%;
+}
+
+.info-content a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+.info-content a:hover {
+  color: #686d68;
+}
+
+.info-content-black a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+.info-content-black a:hover {
+  color: #686d68;
+}
+
+img {
+  width: 50%;
+}
+
+// @media only screen and (max-width: 600px) {
+//   .b-right {
+//     border-right: none;
+//   }
+// }
