@@ -40,7 +40,6 @@ import { WeddingHighlightsComponent } from './pages/wedding-highlights/wedding-h
     EmailDialog,
     WeddingHighlightsComponent
   ],
-  entryComponents: [],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
